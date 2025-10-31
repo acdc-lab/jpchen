@@ -1,0 +1,34 @@
+- alt: Beijing University of Posts and Telecommunications
+  img: /assets/img/affiliations/bupt.png
+  url: https://www.bupt.edu.cn/
+  scale: 1.5   # ← 这张更小，放大更多
+
+- alt: Key Laboratory of TDCS
+  img: /assets/img/affiliations/tdcs.png
+  url: https://mekltdcs.bupt.edu.cn/
+  scale: 1.6    # ← 这张更小，放大更多
+
+- alt: ACDC
+  img: /assets/img/affiliations/acdc.png
+  url: https://acdc-lab.github.io/
+  scale: 1.5    # ← 这张更小，放大更多
+
+- alt: Aalborg University
+  img: /assets/img/affiliations/aau.png
+  url: https://www.en.aau.dk
+  scale: 1.5   # ← 显得小就放大一些
+
+- alt: Sydney University
+  img: /assets/img/affiliations/sydney.png
+  url: https://www.sydney.edu.au/
+  scale: 1.5  # ← 显得小就放大一些
+
+- alt: Daisy Lab, Aalborg University
+  img: /assets/img/affiliations/aau.png
+  url: https://www.dat.aau.dk/forskning/dess-data-engineering-science-and-systems
+  scale: 1.5  # ← 显得小就放大一些
+
+
+
+
+

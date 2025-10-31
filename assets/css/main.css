@@ -1,0 +1,353 @@
+:root{
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted:#475569;
+  --link:#0ea5e9;
+  --link-visited:#7c3aed;
+  --border:#e5e7eb;
+  --accent:#0ea5e933;
+  --brand:#0ea5e9;
+  --shadow: 0 6px 24px rgba(2,6,23,.08);
+  --radius: 16px;
+}
+:root[data-theme="dark"]{
+  --bg:#0b1220;
+  --card:#0f172a;
+  --text:#e2e8f0;
+  --muted:#94a3b8;
+  --link:#38bdf8;
+  --link-visited:#a78bfa;
+  --border:#1e293b;
+  --accent:#38bdf81a;
+  --brand:#38bdf8;
+  --shadow: 0 6px 24px rgba(0,0,0,.5);
+}
+html,body{margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+
+.container{max-width:1250px;margin:0 auto;padding:92px 24px 40px}
+.container.narrow{max-width:900px}
+
+.site-header{position:sticky;top:0;z-index:30;background:linear-gradient(180deg, var(--card) 60%, transparent);backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--border)}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;padding:14px 24px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand .logo{font-size:22px}
+.brand .title{font-weight:800;letter-spacing:.2px;color:var(--text)}
+.nav{display:flex;gap:20px}
+.nav-link{color:var(--muted);text-decoration:none;font-weight:600;padding:8px 10px;border-radius:12px}
+.nav-link:hover{background:var(--accent);color:var(--text)}
+.nav-link.active{color:var(--text);background:var(--accent)}
+
+h1,h2,h3{line-height:1.25}
+h1{font-size:34px;margin:0 0 6px}
+h2{font-size:26px;margin:30px 0 10px}
+.section{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:26px;margin:18px 0}
+.section .title{display:flex;align-items:center;gap:10px;font-weight:800}
+.section .title .emoji{font-size:22px}
+
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+blockquote{margin:0;padding:14px 16px;border-left:4px solid var(--brand);background:var(--accent)}
+ul{padding-left:22px;margin:6px 0}
+a{color:var(--link)}
+a:visited{color:var(--link-visited)}
+a:visited{color:var(--link-visited)}
+.sep{opacity:.6;margin:0.5rem}
+.site-footer{border-top:1px solid var(--border);padding:8px 0;background:var(--card)}
+.site-footer .container{display:flex;gap:8px;align-items:center;justify-content:center}
+kbd,code,pre{font-family:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace}
+.meta{color:var(--muted);font-size:.95rem}
+
+.badge{
+  display:inline-block;border:1px dashed var(--border);
+  padding:4px 10px;border-radius:999px;background:var(--accent);font-weight:600
+}
+
+/* === Float portrait only beside About Me === */
+.portrait-wrap{
+  float: right;                      /* 右侧浮动，文本环绕 */
+  margin-left: 24px;                 /* 与正文留出间距 */
+  margin-bottom: 12px;
+  max-width: clamp(180px, 22vw, 260px); /* 响应式宽度：180~260px */
+}
+
+.portrait{
+  width: 100%;
+  aspect-ratio: 4 / 5;               /* 统一比例 */
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  display: block;
+}
+
+.portrait-caption{
+  text-align: center;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+/* 清除浮动，用于结束 About Me 的右侧排版 */
+.clear-float{ clear: both; }
+
+/* 窄屏时不浮动：头像居上居中，正文全宽 */
+@media (max-width: 860px){
+  .portrait-wrap{
+    float: none;
+    margin: 0 auto 14px auto;
+  }
+}
+
+
+/* ===== Portrait card refinement ===== */
+
+/* 浮动框仍然只作用于上方简介区，不改变相对位置 */
+.portrait-wrap{
+  float: right;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  max-width: clamp(200px, 23vw, 280px); /* 右侧卡整体宽度 */
+}
+
+/* 一体化名片卡容器（含照片+文字） */
+.portrait-card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;            /* 让图片圆角与卡片一致 */
+}
+
+/* 照片保持统一比例并充满卡片宽度 */
+.portrait{
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+/* 文字区域：更紧凑、对齐中心、弱化色彩 */
+.portrait-meta{
+  padding: 10px 14px 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* 分隔线更轻 */
+.pm-divider{
+  height: 1px;
+  border: 0;
+  background: var(--border);
+  margin: 8px auto;
+  width: 82%;
+}
+
+/* 主头衔/职务稍微加粗，行距更稳 */
+.pm-title{
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* 邮箱以单行等宽字体展示，易复制 */
+.pm-mail{
+  display: inline-block;
+  margin-top: 4px;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--border);
+  padding-bottom: 1px;
+  color: var(--text);
+}
+.pm-mail:hover{ border-bottom-color: var(--text); }
+
+/* 窄屏下不浮动，名片居中显示 */
+@media (max-width: 860px){
+  .portrait-wrap{
+    float: none;
+    margin: 0 auto 14px auto;
+  }
+}
+
+/* ==== Bio two-column layout (replaces float approach) ==== */
+.bio-grid{
+  display: grid;
+  grid-template-columns: 1.7fr 0.7fr;   /* 左文右图 */
+  gap: 24px;
+  align-items: start;
+}
+.bio-aside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bio-aside .profile{
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+.bio-aside .caption{
+  text-align: center;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.bio-aside .meta-line{
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.bio-aside .email{
+  margin-top: 4px;
+  font-family: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--border);
+  color: var(--text);
+}
+.bio-aside .email:hover{ border-bottom-color: var(--text); }
+
+/* 窄屏单列：名片置顶，正文其后 */
+@media (max-width: 860px){
+  .bio-grid{ grid-template-columns: 1fr; }
+  .bio-aside{ order: -1; }             /* 手机端头像显示在最上面 */
+  .bio-aside .profile{ max-width: 220px; }
+}
+
+/* ==== Talks timeline ==== */
+.talks { margin-top: 8px; }
+.talk {
+  display: grid;
+  grid-template-columns: 140px 1fr; /* 左：日期，右：内容 */
+  gap: 12px 18px;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+.talk:first-child { border-top: 0; }
+.talk-date {
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.talk-meta { color: var(--muted); }
+.talk-title { font-weight: 700; color: var(--text); }
+@media (max-width: 720px) {
+  .talk { grid-template-columns: 1fr; }
+  .talk-date { order: -1; }
+}
+
+
+/* --- Affiliations: single-line strip --- */
+.affiliations { margin: 12px 0 24px; }
+
+.affiliations .container.narrow { max-width: 1200px; }
+
+.aff-logos{
+  list-style: none;
+  margin: 0; padding: 8px 4px;
+  display: flex;
+  flex-wrap: nowrap;              /* 单行，不换行 */
+  gap: 18px;
+  overflow-x: auto;               /* 超出时横向滚动 */
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+.aff-logos::-webkit-scrollbar{ height: 8px; }
+.aff-logos::-webkit-scrollbar-thumb{
+  background: rgba(0,0,0,.12);
+  border-radius: 999px;
+}
+
+.aff-logo{
+  flex: 0 0 160px;                /* 单个卡片的宽度，可按需调 */
+  padding-left: 15px;
+  height: 110px;                  /* 卡片高度 */
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.06);
+  box-shadow: 0 1px 0 rgba(0,0,0,.05), 0 6px 24px rgba(0,0,0,.06);
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.aff-logo:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 2px 0 rgba(0,0,0,.06), 0 12px 32px rgba(0,0,0,.10);
+  border-color: rgba(0,0,0,.12);
+}
+
+.aff-logo img{
+  max-width: 78%;
+  max-height: 64px;
+  object-fit: contain;
+  transform: scale(var(--s, 1));  /* 从 yml 传入的缩放因子 */
+  transform-origin: center;
+  filter: grayscale(100%);
+  opacity: .9;
+  transition: filter .18s ease, opacity .18s ease;
+}
+.aff-logo:hover img{ filter: grayscale(0%); opacity: 1; }
+
+/* 窄屏适配：保持单行滚动，仅缩小卡片与图片尺寸 */
+@media (max-width: 992px){
+  .aff-logo{ flex-basis: 180px; height: 100px; }
+  .aff-logo img{ max-height: 56px; }
+}
+@media (max-width: 640px){
+  .aff-logo{ flex-basis: 160px; height: 92px; }
+  .aff-logo img{ max-height: 50px; }
+}
+
+
+/* ===== tighten space above footer ===== */
+
+/* 主容器底部留白更小 */
+main.container{
+  padding-bottom: 30px;   /* 原来是 ~40px */
+}
+
+/* 每个 section 默认间距 */
+.section{ margin: 18px 0; }
+
+/* 最后一个 section 贴近下方（防止多余空白） */
+.section:last-of-type{
+  margin-bottom: 8px;
+}
+
+/* Affiliations 条带更紧凑 */
+.affiliations{ margin-top: 6px; }
+.affiliations .container{
+  padding: 8px 24px 6px;  /* 之前 18/24/8 */
+}
+
+/* 页脚本身再收一点 */
+.site-footer{ padding: 30px 0; }
+.site-footer .container{ padding: 0; }
+
+/* 兼容窄屏：再稍微压紧 */
+@media (max-width: 720px){
+  main.container{ padding-bottom: 8px; }
+  .section{ margin: 16px 0; }
+  .section:last-of-type{ margin-bottom: 6px; }
+  .affiliations .container{ padding: 6px 16px 4px; }
+  .site-footer{ padding: 8px 0; }
+}
+
+
+/* publications */
+.pub-year{ font-weight:800; margin:18px 0 8px; }
+.pub-list{ margin: 0; padding-left: 20px; }
+.pub-item{ margin: 6px 0; }
+.pub-title{ color: var(--text); }
+.pub-authors{ color: var(--muted); }
+
+
+
+
+
+
