@@ -25,7 +25,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true
+          bundler-cache: false   # 关闭自动 bundle install
+
+      - name: Add linux platform to Gemfile.lock
+        run: |
+          bundle lock --add-platform x86_64-linux
+          bundle lock --add-platform ruby
 
       - name: Install dependencies
         run: bundle install --jobs 4 --retry 3
