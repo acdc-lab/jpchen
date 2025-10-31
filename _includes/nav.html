@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="{{ "/" | relative_url }}">
+      <span class="logo">🙂</span>
+      <span class="title">{{ site.title }}</span>
+    </a>
+    <nav class="nav">
+      {% for item in site.nav %}
+        <a class="nav-link{% if page.url == item.url %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

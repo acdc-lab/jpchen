@@ -1,0 +1,19 @@
+{% assign logos = site.data.affiliations | default: empty %}
+{% if logos and logos.size > 0 %}
+<section class="affiliations">
+  <div class="container narrow">
+    <ul class="aff-logos">
+      {% for x in logos %}
+      <li class="aff-logo">
+        {% if x.url %}<a href="{{ x.url }}" target="_blank" rel="noopener" aria-label="{{ x.alt | default: 'affiliation' }}">{% endif %}
+          <img src="{{ x.img | relative_url }}"
+               alt="{{ x.alt | default: 'affiliation logo' }}"
+               loading="lazy" decoding="async"
+               style="--s: {{ x.scale | default: 1 }};">
+        {% if x.url %}</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

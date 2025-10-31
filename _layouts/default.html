@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.tagline }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ "/assets/img/favicon.svg" | relative_url }}">
+</head>
+<body class="theme-auto">
+  {% include nav.html %}
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  {% include affiliations.html %}
+
+  <footer class="site-footer">
+    <div class="container narrow">
+      <span>© {{ "now" | date: "%Y" }} {{ site.author.name }}</span>
+      <span class="sep"> Y·M</span>
+      <button id="toggleTheme" aria-label="Toggle theme">Toggle theme</button>
+    </div>
+  </footer>
+
+<script>
+  const key='pref-theme';
+  const btn=document.getElementById('toggleTheme');
+  const apply=(m)=>document.documentElement.dataset.theme=m;
+  const saved=localStorage.getItem(key);
+  if(saved){apply(saved)}else{apply('auto')}
+  btn?.addEventListener('click', ()=>{
+    const cur=document.documentElement.dataset.theme;
+    const next= cur==='dark' ? 'light' : cur==='light' ? 'auto' : 'dark';
+    localStorage.setItem(key,next); apply(next);
+  });
+</script>
+</body>
+</html>

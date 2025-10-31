@@ -1,0 +1,11 @@
+{% assign link = entry.pdf | default: entry.url | default: entry.doi %}
+<span class="pub-title"><strong>{{ entry.title | strip }}</strong>.</span>
+<span class="pub-authors">{{ entry.author }}</span>
+{% if entry.journal %}
+  <em>{{ entry.journal }}</em>
+{% elsif entry.booktitle %}
+  In <em>{{ entry.booktitle }}</em>
+{% endif %}
+{% if entry.year %} {{ entry.year }}.{% endif %}
+{% if link %} [<a href="{{ link }}" target="_blank" rel="noopener">Link</a>]{% endif %}
+{% if entry.code %} [<a href="{{ entry.code }}" target="_blank" rel="noopener">Code</a>]{% endif %}
