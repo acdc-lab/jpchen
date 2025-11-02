@@ -1,0 +1,52 @@
+# _data/teaching.yml
+- title: Operating Systems
+  term: Spring 2025
+  level: Undergraduate
+  cover: /assets/img/course.png
+  instructors: [Jinpeng Chen]
+  org: School of Computer Science (National Model Software College)
+  tags: [Processes, Threads, Memory, Filesystem, Synchronization]
+  desc: >
+    Principles + implementation: process/thread model, scheduling and synchronization,
+    virtual memory and paging, I/O and filesystem. A series of labs guide students
+    to understand key OS mechanisms from the ground up.
+  syllabus_url:
+
+- title: Cloud Computing
+  term: Fall 2024
+  level: Undergraduate
+  cover: /assets/img/course.png
+  instructors: [Jinpeng Chen]
+  org: School of Computer Science (National Model Software College)
+  tags: [Distributed Systems, Virtualization, Containers, Cloud-Native]
+  desc: >
+    Core technologies and hands-on engineering for cloud platforms:
+    virtualization and containers, cloud-native architecture, microservices and service mesh,
+    and Kubernetes-based deployment/operations with practical labs and a course project.
+  syllabus_url:
+
+- title: Frontiers in Cross-Media Recommender Systems
+  term: Fall 2024
+  level: Graduate
+  cover: /assets/img/course.png
+  instructors: [Jinpeng Chen]
+  org: School of Computer Science (National Model Software College)
+  tags: [Multimodal, Sequential Rec, Causal Intervention, Data Augmentation]
+  desc: >
+    Multimodal representation learning and sequential recommendation:
+    alignment of image/text/time, preference-aware causal intervention,
+    robustness via data augmentation, and paper-to-practice reproduction with open-source toolchains.
+  syllabus_url:
+
+- title: Foundations and Applications of Large Language Models
+  term: Spring 2025
+  level: Graduate
+  cover: /assets/img/course.png
+  instructors: [Jinpeng Chen,Zhenye Yang, Fan Zhang]
+  org: Academic Affairs Office
+  tags: [LLM, PEFT, Model Compression, Multi-Agent, Deployment]
+  desc: >
+    End-to-end LLM pipeline: pretraining/finetuning, alignment and evaluation,
+    parameter-efficient tuning and compression for deployment, and multi-agent collaboration.
+    The course project delivers a working demo from data to application.
+  syllabus_url:

@@ -57,6 +57,8 @@ nav:
     url: /publications/
   - name: Service
     url: /service/
+  - name: Teaching
+    url: /teaching/
 
 author:
   name: Prof. Jinpeng Chen
