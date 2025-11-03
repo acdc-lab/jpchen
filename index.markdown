@@ -11,21 +11,21 @@ title: Home
     <div>
       <p class="meta"><span class="badge">About Me</span></p>
       <p>
-        I am <strong>Jinpeng Chen</strong>, an <strong>Associate Professor</strong> and <strong>Doctoral Advisor</strong> at the
-        <em>School of Computer Science (National Model Software College)</em>, <strong>Beijing University of Posts and Telecommunications (BUPT)</strong>.
-        I am a <strong>Senior Member of CCF</strong>, a <strong>Senior Member of CIC</strong>, and a member of <strong>IEEE</strong> and <strong>ACM</strong>.
+        I am Jinpeng Chen, an Associate Professor and Doctoral Advisor at the
+        School of Computer Science (National Model Software College), Beijing University of Posts and Telecommunications (BUPT).
+        I am a Senior Member of CCF, a Senior Member of CIC, and a member of IEEE and ACM.
         My research interests include <strong>social media &amp; data mining</strong>, <strong>recommender systems</strong>,
         <strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>.
       </p>
 
       <p>
         I have led or participated in <strong>40+ research projects</strong> funded by national programs, provincial/ministerial agencies, and industry partners.
-        These include the <em>National 973 Program</em>, <em>National Key R&amp;D Program</em>, <em>NSFC General/Youth Programs</em>,
-        <em>National Social Science Foundation</em>, <em>Beijing Natural Science Foundation</em>,
-        and collaborative funds from <em>CCF–Tencent Rhino Bird</em>, <em>CCF–Zhejiang Lab “Zhihai”</em>, <em>CCF–Zhipu LLM</em>,
-        <em>SMP–IDATA Morning Star</em>, BUPT research initiatives, and key lab open grants.
+        These include the National 973 Program, National Key R&amp;D Program, NSFC General/Youth Programs,
+        National Social Science Foundation, Beijing Natural Science Foundation,
+        and collaborative funds from CCF–Tencent Rhino Bird, CCF–Zhejiang Lab “Zhihai”, CCF–Zhipu LLM,
+        SMP–IDATA Morning Star, BUPT research initiatives, and key lab open grants.
         I have published <strong>100+ papers</strong> in venues such as <em>SIGIR, NeurIPS, AAAI, ACM MM, EMNLP, TMC, TMM,</em> and <em>TNNLS</em>,
-        received the <strong>ICONIP 2022 Best Paper Award</strong>, and hold <strong>8 patents</strong>.
+        received the ICONIP 2022 Best Paper Award, and hold 8 patents.
       </p>
 
       <p class="meta"><strong>Selected Honors &amp; Teaching Awards</strong></p>
