@@ -186,8 +186,9 @@ kbd,code,pre{font-family:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, 
 .bio-aside .profile{
   width: 100%;
   max-width: 280px;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
+  object-position: center top;
   border-radius: 14px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
