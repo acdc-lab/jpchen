@@ -36,9 +36,10 @@ permalink: /teaching/
   {% if courses and courses.size > 0 %}
   <div class="teach-grid">
     {% for c in courses %}
+    {% assign cover = c.cover | default: '/assets/img/teaching/placeholder.jpg' %}
     <article class="teach-card">
       <div class="teach-cover">
-        <img src="{{ (c.cover | default: '/assets/img/teaching/placeholder.jpg') | relative_url }}"
+        <img src="{{ cover | relative_url }}"
              alt="{{ c.title }}">
         {% if c.term %}<span class="badge-term">{{ c.term }}</span>{% endif %}
         {% if c.level and c.level contains 'Graduate' %}

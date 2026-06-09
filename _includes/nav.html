@@ -1,13 +1,15 @@
-<header class="site-header">
-  <div class="container">
-    <a class="brand" href="{{ "/" | relative_url }}">
-      <span class="logo">🙂</span>
-      <span class="title">{{ site.title }}</span>
-    </a>
-    <nav class="nav">
-      {% for item in site.nav %}
-        <a class="nav-link{% if page.url == item.url %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
-      {% endfor %}
+<header class="masthead">
+  <div class="masthead__inner-wrap">
+    <nav class="greedy-nav" aria-label="Primary">
+      <ul class="visible-links">
+        <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ "/" | relative_url }}">Homepage</a></li>
+        <li class="masthead__menu-item"><a href="{{ "/#about-me" | relative_url }}">About Me</a></li>
+        <li class="masthead__menu-item"><a href="{{ "/#research" | relative_url }}">Research</a></li>
+        <li class="masthead__menu-item"><a href="{{ "/#publications" | relative_url }}">Publications</a></li>
+        <li class="masthead__menu-item"><a href="{{ "/#teaching" | relative_url }}">Teaching</a></li>
+        <li class="masthead__menu-item"><a href="{{ "/#service" | relative_url }}">Service</a></li>
+        <li class="masthead__menu-item"><a href="{{ "/#talks" | relative_url }}">Talks</a></li>
+      </ul>
     </nav>
   </div>
 </header>

@@ -5,273 +5,612 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home — Prof. Jinpeng Chen</title>
   <meta name="description" content="Social Media & Data Mining · Recommender Systems · Large Language Models · Intelligent Transportation & Spatiotemporal Forecasting">
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/jpchen/assets/css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="/assets/img/favicon.svg">
+  <link rel="icon" href="/jpchen/assets/img/favicon.svg">
 </head>
 <body class="theme-auto">
-  <header class="site-header">
-  <div class="container">
-    <a class="brand" href="/">
-      <span class="logo">🙂</span>
-      <span class="title">Prof. Jinpeng Chen</span>
-    </a>
-    <nav class="nav">
-      
-        <a class="nav-link" href="/publications/">Publications</a>
-      
-        <a class="nav-link" href="/service/">Service</a>
-      
+  <header class="masthead">
+  <div class="masthead__inner-wrap">
+    <nav class="greedy-nav" aria-label="Primary">
+      <ul class="visible-links">
+        <li class="masthead__menu-item masthead__menu-item--lg"><a href="/jpchen/">Homepage</a></li>
+        <li class="masthead__menu-item"><a href="/jpchen/#about-me">About Me</a></li>
+        <li class="masthead__menu-item"><a href="/jpchen/#research">Research</a></li>
+        <li class="masthead__menu-item"><a href="/jpchen/#publications">Publications</a></li>
+        <li class="masthead__menu-item"><a href="/jpchen/#teaching">Teaching</a></li>
+        <li class="masthead__menu-item"><a href="/jpchen/#service">Service</a></li>
+        <li class="masthead__menu-item"><a href="/jpchen/#talks">Talks</a></li>
+      </ul>
     </nav>
   </div>
 </header>
 
-  <main class="container">
-    <section class="section">
-  <div class="title"><span class="emoji">👋</span><h1 style="margin:0">Hello</h1></div>
 
-  <div class="bio-grid">
-    <!-- 左列：About + Honors + Mentoring -->
-    <div>
-      <p class="meta"><span class="badge">About Me</span></p>
-      <p>
-        I am <strong>Jinpeng Chen</strong>, an <strong>Associate Professor</strong> and <strong>Doctoral Advisor</strong> at the
-        <em>School of Computer Science (National Model Software College)</em>, <strong>Beijing University of Posts and Telecommunications (BUPT)</strong>.
-        I am a <strong>Senior Member of CCF</strong>, a <strong>Senior Member of CIC</strong>, and a member of <strong>IEEE</strong> and <strong>ACM</strong>.
-        My research interests include <strong>social media &amp; data mining</strong>, <strong>recommender systems</strong>,
-        <strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>.
-      </p>
-
-      <p>
-        I have led or participated in <strong>40+ research projects</strong> funded by national programs, provincial/ministerial agencies, and industry partners.
-        These include the <em>National 973 Program</em>, <em>National Key R&amp;D Program</em>, <em>NSFC General/Youth Programs</em>,
-        <em>National Social Science Foundation</em>, <em>Beijing Natural Science Foundation</em>,
-        and collaborative funds from <em>CCF–Tencent Rhino Bird</em>, <em>CCF–Zhejiang Lab “Zhihai”</em>, <em>CCF–Zhipu LLM</em>,
-        <em>SMP–IDATA Morning Star</em>, BUPT research initiatives, and key lab open grants.
-        I have published <strong>100+ papers</strong> in venues such as <em>SIGIR, NeurIPS, AAAI, ACM MM, EMNLP, TMC, TMM,</em> and <em>TNNLS</em>,
-        received the <strong>ICONIP 2022 Best Paper Award</strong>, and hold <strong>8 patents</strong>.
-      </p>
-
-      <p class="meta"><strong>Selected Honors &amp; Teaching Awards</strong></p>
-      <ul>
-        <li>National Graduate Education Essay Award (Excellence); CCGEC 2025 Best Paper (First Prize); CECC 2024 Teaching Case (First Prize).</li>
-        <li>3rd Prize, 12th Excellent Higher Education Paper; Zhou Jiongpang Outstanding Young Teacher Award; “ChuanYou 70” Teaching Innovation Award.</li>
-        <li>BUPT Graduate Teaching Achievement Award (Second Prize); BUPT Teaching Observation Competition (Second Prize);
-            BUPT Young Teachers’ Teaching Skills (Second Prize); BUPT Teaching Innovation Competition (Second Prize).</li>
-        <li>Outstanding Instructor for Undergraduate Innovation &amp; Entrepreneurship projects.</li>
-      </ul>
-
-      <p class="meta"><strong>Student Mentoring</strong></p>
-      <ul>
-        <li>Supervised <strong>20</strong> Undergraduate Innovation &amp; Entrepreneurship Training Projects (7 national, 9 municipal).</li>
-        <li>Students received BUPT Innovation &amp; Entrepreneurship Practice Awards: <em>First Prize (2019)</em>, <em>Second Prize ×2 (2021)</em>, <em>Third Prize ×2 (2018, 2021)</em>.</li>
-        <li>Graduate mentees won <em>Third Prize</em> at the BUPT Graduate Innovation &amp; Entrepreneurship Exhibition (2020).</li>
-      </ul>
-    </div>
-
-    <!-- 右列：照片 + 头衔（相对位置不变） -->
-    <aside class="bio-aside">
-      <img class="profile" src="/assets/img/profile.jpg" alt="Profile photo of Prof. Jinpeng Chen" />
-      <div class="caption">Beijing, China</div>
-      <div class="meta-line">Associate Professor · Vice Dean</div>
-      <div class="meta-line">Doctoral Supervisor</div>
-      <div class="meta-line">CCF/CIC Senior Member · IEEE/ACM Member</div>
-      <a class="email" href="mailto:jpchen@bupt.edu.cn">jpchen@bupt.edu.cn</a>
+  <div class="site-shell">
+    <aside class="sidebar">
+      <div class="profile-box">
+        <img class="profile-photo" src="/jpchen/assets/img/profile.jpg" alt="Profile photo of Prof. Jinpeng Chen">
+        <h1 class="profile-name">Prof. Jinpeng Chen</h1>
+        <p class="profile-title">Associate Professor @ BUPT</p>
+        <ul class="profile-meta">
+          <li>Vice Dean</li>
+          <li>Doctoral Supervisor</li>
+          <li>CCF/CIC Senior Member</li>
+          <li>IEEE/ACM Member</li>
+          <li>Beijing, China</li>
+        </ul>
+        <ul class="profile-links">
+          <li><a href="mailto:jpchen@bupt.edu.cn">Email</a></li>
+          <li><a href="/jpchen/">Homepage</a></li>
+        </ul>
+      </div>
     </aside>
-  </div>
-</section>
 
-<section class="section">
-  <div class="title"><span class="emoji">🧪</span><h2 style="margin:0">Research</h2></div>
+    <main class="page">
+      <div class="page__inner-wrap">
+        <section class="page__content">
+          <p><span class="anchor" id="about-me"></span></p>
 
-  <p>
-    Our group focuses on four tightly connected directions: <strong>Social Media &amp; Data Mining</strong>,
-    <strong>Recommender Systems</strong>, <strong>Large Language Models (LLMs)</strong>, and
-    <strong>Intelligent Transportation &amp; Spatiotemporal Forecasting</strong>.
-    We emphasize principled modeling, robust evaluation, and deployable systems.
-  </p>
+<p>I am Jinpeng Chen, an Associate Professor and Doctoral Advisor at the
+School of Computer Science (National Model Software College), Beijing University of Posts and Telecommunications (BUPT).
+I am a Senior Member of CCF, a Senior Member of CIC, and a member of IEEE and ACM.
+My research interests include <strong>social media &amp; data mining</strong>, <strong>recommender systems</strong>,
+<strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>.</p>
 
-  <h3>1) Social Media &amp; Data Mining</h3>
-  <ul>
-    <li><strong>User &amp; Content Modeling:</strong> multimodal representation learning for posts/users (text–image–video), topic and sentiment dynamics, influence estimation.</li>
-    <li><strong>Community Discovery:</strong> graph-based and dynamic community detection on interaction/interest networks; profiling communities and tracking evolution over time.</li>
-  </ul>
+<p>I have led or participated in <strong>40+ research projects</strong> funded by national programs, provincial/ministerial agencies, and industry partners.
+These include the National 973 Program, National Key R&amp;D Program, NSFC General/Youth Programs,
+National Social Science Foundation, Beijing Natural Science Foundation,
+and collaborative funds from CCF–Tencent Rhino Bird, CCF–Zhejiang Lab “Zhihai”, CCF–Zhipu LLM,
+SMP–IDATA Morning Star, BUPT research initiatives, and key lab open grants.
+I have published <strong>100+ papers</strong> in venues such as <em>SIGIR, NeurIPS, AAAI, ACM MM, EMNLP, TMC, TMM,</em> and <em>TNNLS</em>,
+received the ICONIP 2022 Best Paper Award, and hold 8 patents.</p>
 
-  <h3>2) Recommender Systems</h3>
-  <ul>
-    <li><strong>Sequential Recommendation:</strong> session- and long-horizon sequence models capturing short-term intents and long-term preferences; temporal/context signals.</li>
-    <li><strong>Multimodal Recommendation:</strong> fusing text, image, and behavioral cues for cold-start and explainability; contrastive and cross-modal alignment.</li>
-    <li><strong>Fine-grained User &amp; Item Modeling:</strong> attribute- and aspect-level representations, disentangled factors, and side-information enrichment for precise matching.</li>
-  </ul>
+<h1 id="research">Research</h1>
+<p><span class="anchor" id="research"></span></p>
 
-  <h3>3) Large Language Models (LLMs)</h3>
-  <ul>
-    <li><strong>Model Lightweighting:</strong> distillation, pruning, quantization, and parameter-efficient tuning (LoRA/QLoRA) for efficient training and inference.</li>
-    <li><strong>Multi-Agent Applications:</strong> planner–solver–critic pipelines, tool-augmented agents for retrieval/recommendation, evaluation agents for safety and reliability.</li>
-  </ul>
+<p>Our group focuses on four tightly connected directions: <strong>Social Media &amp; Data Mining</strong>,
+<strong>Recommender Systems</strong>, <strong>Large Language Models (LLMs)</strong>, and
+<strong>Intelligent Transportation &amp; Spatiotemporal Forecasting</strong>.
+We emphasize principled modeling, robust evaluation, and deployable systems.</p>
 
-  <h3>4) Intelligent Transportation &amp; Spatiotemporal Forecasting</h3>
-  <ul>
-    <li><strong>Traffic Flow Prediction:</strong> graph neural models over road networks (sensor/road-link graphs), dynamic connectivity, and data fusion (speed/volume/ETC).</li>
-    <li><strong>Spatiotemporal Forecasting:</strong> multi-scale temporal modeling, spatial attention and diffusion on grids/graphs, probabilistic forecasting and uncertainty.</li>
-    <li><strong>Autonomous-Driving Assistance:</strong> perception–map–trajectory fusion, intention and risk prediction for driving decision support under real-time constraints.</li>
-  </ul>
-</section>
+<h2 id="1-social-media--data-mining">1) Social Media &amp; Data Mining</h2>
 
-<section class="section">
-  <div class="title"><span class="emoji">🎤</span><h2 style="margin:0">Talks</h2></div>
+<ul>
+  <li><strong>User &amp; Content Modeling:</strong> multimodal representation learning for posts/users (text–image–video), topic and sentiment dynamics, influence estimation.</li>
+  <li><strong>Community Discovery:</strong> graph-based and dynamic community detection on interaction/interest networks; profiling communities and tracking evolution over time.</li>
+</ul>
 
-  <div class="talks">
+<h2 id="2-recommender-systems">2) Recommender Systems</h2>
 
-    <div class="talk">
-      <div class="talk-date">2025-11-02</div>
-      <div>
-        <div class="talk-title">Preference-aware Causal Intervention and Intent-driven Sequential Recommendation</div>
-        <div class="talk-meta">Invited talk at the <em>11th China Conference on Intelligent Technology and Big Data (CITBD 2025)</em>.</div>
-      </div>
+<ul>
+  <li><strong>Sequential Recommendation:</strong> session- and long-horizon sequence models capturing short-term intents and long-term preferences; temporal/context signals.</li>
+  <li><strong>Multimodal Recommendation:</strong> fusing text, image, and behavioral cues for cold-start and explainability; contrastive and cross-modal alignment.</li>
+  <li><strong>Fine-grained User &amp; Item Modeling:</strong> attribute- and aspect-level representations, disentangled factors, and side-information enrichment for precise matching.</li>
+</ul>
+
+<h2 id="3-large-language-models-llms">3) Large Language Models (LLMs)</h2>
+
+<ul>
+  <li><strong>Model Lightweighting:</strong> distillation, pruning, quantization, and parameter-efficient tuning (LoRA/QLoRA) for efficient training and inference.</li>
+  <li><strong>Multi-Agent Applications:</strong> planner–solver–critic pipelines, tool-augmented agents for retrieval/recommendation, evaluation agents for safety and reliability.</li>
+</ul>
+
+<h2 id="4-intelligent-transportation--spatiotemporal-forecasting">4) Intelligent Transportation &amp; Spatiotemporal Forecasting</h2>
+
+<ul>
+  <li><strong>Traffic Flow Prediction:</strong> graph neural models over road networks (sensor/road-link graphs), dynamic connectivity, and data fusion (speed/volume/ETC).</li>
+  <li><strong>Spatiotemporal Forecasting:</strong> multi-scale temporal modeling, spatial attention and diffusion on grids/graphs, probabilistic forecasting and uncertainty.</li>
+  <li><strong>Autonomous-Driving Assistance:</strong> perception–map–trajectory fusion, intention and risk prediction for driving decision support under real-time constraints.</li>
+</ul>
+
+<h1 id="publications">Publications</h1>
+<p><span class="anchor" id="publications"></span></p>
+
+<p>Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (arXiv/CoRR) are excluded.</p>
+
+<h2 class="bibliography">2025</h2>
+<ol class="bibliography"><li>
+<span class="pub-title"><strong>Adaptive graph diffusion networks: compact and expressive GNNs with
+                  large receptive fields</strong>.</span>
+<span class="pub-authors">Sun, Chuxiong and Zhang, Muhan and Hu, Jie and Gu, Hongming and Chen, Jinpeng and Yang, Mingchuan</span>
+
+  <em>Artif. Intell. Rev.</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1007/s10462-025-11114-z" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>IDBR: Interaction-Aware Dual-Granularity Learning for Bundle Recommendation</strong>.</span>
+<span class="pub-authors">Wang, Jinqing and Cao, Yuan and Zhang, Fan and Kou, Feifei and Wei, Kaimin and Zhang, Jinghui and Chen, Jinpeng</span>
+
+  <em>Big Data Min. Anal.</em>
+
+ 2025.
+ [<a href="https://doi.org/10.26599/bdma.2025.9020016" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Dual-view collaboration fusion on diffusion learning for bundle recommendation</strong>.</span>
+<span class="pub-authors">Chen, Jinpeng and Wang, Jinqing and Zhang, Fan and Cao, Yuan and Wei, Kaimin and Huang, Liwei and Zhu, Haoran and Kou, Feifei and Huang, Hongben</span>
+
+  <em>Inf. Fusion</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1016/j.inffus.2025.103154" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>PD-DRL: Towards privacy-preserving and energy-sustainable UAV
+                  crowdsensing</strong>.</span>
+<span class="pub-authors">Chen, Xiaohui and Wei, Kaimin and Chen, Jinpeng and Wu, Yongdong</span>
+
+  <em>Internet Things</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1016/j.iot.2025.101520" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Privacy-Preserving Multitask Online Matching in Mobile Crowdsensing:
+                  A Snapshot-Based Approach</strong>.</span>
+<span class="pub-authors">Wei, Kaimin and Zhao, Shiting and Chen, Jinpeng and Pei, Tingrui and Sun, Dezhi</span>
+
+  <em>IEEE Internet Things J.</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1109/JIOT.2025.3571185" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Scalable and Adaptive Graph Neural Networks with Self-Label-Enhanced
+                  Training</strong>.</span>
+<span class="pub-authors">Sun, Chuxiong and Hu, Jie and Gu, Hongming and Chen, Jinpeng and Liang, Wei and Yang, Mingchuan</span>
+
+  <em>Pattern Recognit.</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1016/j.patcog.2024.111210" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Driving Risk Assessment for Intelligent Vehicles Based on Entropy-Informed
+                  Graph Neural Networks and Gaussian Distributions</strong>.</span>
+<span class="pub-authors">Gao, Hongbo and Wang, Chengbo and Niu, Runda and Fang, Xiaozhao and Chen, Jinpeng and Sun, Yining and Jin, Huiqing and Wang, Danwei</span>
+
+  <em>IEEE Trans. Neural Networks Learn. Syst.</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1109/TNNLS.2025.3569826" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>HLMEA: Unsupervised Entity Alignment Based on Hybrid Language Models</strong>.</span>
+<span class="pub-authors">Jin, Xiongnan and Wang, Zhilin and Chen, Jinpeng and Yang, Liu and Oh, Byungkook and Hwang, Seung-won and Li, Jianqiang</span>
+
+  In <em>AAAI-25, Sponsored by the Association for the Advancement of Artificial
+                  Intelligence, February 25 - March 4, 2025, Philadelphia, PA, USA</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1609/aaai.v39i11.33294" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Leveraging the Dual Capabilities of LLM: LLM-Enhanced Text Mapping
+                  Model for Personality Detection</strong>.</span>
+<span class="pub-authors">Bi, Weihong and Kou, Feifei and Shi, Lei and Li, Yawen and Li, Haisheng and Chen, Jinpeng and Xu, Mingying</span>
+
+  In <em>AAAI-25, Sponsored by the Association for the Advancement of Artificial
+                  Intelligence, February 25 - March 4, 2025, Philadelphia, PA, USA</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1609/aaai.v39i22.34517" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Hierarchical Intent-guided Optimization with Pluggable LLM-Driven
+                  Semantics for Session-based Recommendation</strong>.</span>
+<span class="pub-authors">Chen, Jinpeng and He, Jianxiang and Li, Huan and Wang, Senzhang and Cao, Yuan and Wei, Kaimin and Yang, Zhenye and Ji, Ye</span>
+
+  In <em>Proceedings of the 48th International ACM SIGIR Conference on
+                  Research and Development in Information Retrieval, SIGIR 2025, Padua,
+                  Italy, July 13-18, 2025</em>
+
+ 2025.
+ [<a href="https://doi.org/10.1145/3726302.3729994" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Leveraging Multimodal Data and Side Users for Diffusion Cross-Domain
+                  Recommendation</strong>.</span>
+<span class="pub-authors">Zhang, Fan and Chen, Jinpeng and Li, Huan and Wang, Senzhang and Cao, Yuan and Wei, Kaimin and He, Jianxiang and Kou, Feifei and Wang, Jinqing</span>
+
+  <em>CoRR</em>
+
+ 2025.
+ [<a href="https://doi.org/10.48550/arXiv.2507.04000" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Hierarchical Intent-guided Optimization with Pluggable LLM-Driven
+                  Semantics for Session-based Recommendation</strong>.</span>
+<span class="pub-authors">Chen, Jinpeng and He, Jianxiang and Li, Huan and Wang, Senzhang and Cao, Yuan and Wei, Kaimin and Yang, Zhenye and Ji, Ye</span>
+
+  <em>CoRR</em>
+
+ 2025.
+ [<a href="https://doi.org/10.48550/arXiv.2507.04623" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>STEP: Stepwise Curriculum Learning for Context-Knowledge Fusion
+                  in Conversational Recommendation</strong>.</span>
+<span class="pub-authors">Yang, Zhenye and Chen, Jinpeng and Li, Huan and Jin, Xiongnan and Li, Xuanyang and Zhang, Junwei and Gao, Hongbo and Wei, Kaimin and Wang, Senzhang</span>
+
+  <em>CoRR</em>
+
+ 2025.
+ [<a href="https://doi.org/10.48550/arXiv.2508.10669" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>SpecVLM: Enhancing Speculative Decoding of Video LLMs via Verifier-Guided
+                  Token Pruning</strong>.</span>
+<span class="pub-authors">Ji, Yicheng and Zhang, Jun and Xia, Heming and Chen, Jinpeng and Shou, Lidan and Chen, Gang and Li, Huan</span>
+
+  <em>CoRR</em>
+
+ 2025.
+ [<a href="https://doi.org/10.48550/arXiv.2508.16201" target="_blank" rel="noopener">Link</a>]
+
+</li></ol>
+<h2 class="bibliography">2024</h2>
+<ol class="bibliography"><li>
+<span class="pub-title"><strong>Aggregation-based dual heterogeneous task allocation in spatial crowdsourcing</strong>.</span>
+<span class="pub-authors">Lin, Xiaochuan and Wei, Kaimin and Li, Zhetao and Chen, Jinpeng and Pei, Tingrui</span>
+
+  <em>Frontiers Comput. Sci.</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1007/s11704-023-3133-6" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>SR-HetGNN: session-based recommendation with heterogeneous graph neural
+                  network</strong>.</span>
+<span class="pub-authors">Chen, Jinpeng and Li, Haiyang and Zhang, Xudong and Zhang, Fan and Wang, Senzhang and Wei, Kaimin and Ji, Jiaqi</span>
+
+  <em>Knowl. Inf. Syst.</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1007/s10115-023-01986-4" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>CRAS: cross-domain recommendation via aspect-level sentiment extraction</strong>.</span>
+<span class="pub-authors">Zhang, Fan and Zhou, Yaoyao and Sun, Pengfei and Xu, Yi and Han, Wanjiang and Huang, Hongben and Chen, Jinpeng</span>
+
+  <em>Knowl. Inf. Syst.</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1007/s10115-024-02130-6" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Group Task Recommendation in Mobile Crowdsensing: An Attention-Based
+                  Neural Collaborative Approach</strong>.</span>
+<span class="pub-authors">Wei, Kaimin and Qi, Guozi and Li, Zhetao and Guo, Song and Chen, Jinpeng</span>
+
+  <em>IEEE Trans. Mob. Comput.</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1109/TMC.2023.3345865" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>EMPNet: An extract-map-predict neural network architecture for cross-domain
+                  recommendation</strong>.</span>
+<span class="pub-authors">Chen, Jinpeng and Zhang, Fan and Li, Huan and Lu, Hua and Jin, Xiongnan and Liu, Kuien and Li, Hongjun and Wang, Yongheng</span>
+
+  <em>World Wide Web (WWW)</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1007/s11280-024-01240-z" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>From Black-box to Label-only: a Plug-and-Play Attack Network for Model
+                  Inversion</strong>.</span>
+<span class="pub-authors">Bao, Huan and Wei, Kaimin and Chen, Yao and Hou, Hanting and Chen, Jinpeng and Wu, Yongdong</span>
+
+  In <em>35th British Machine Vision Conference, BMVC 2024, Glasgow, UK,
+                  November 25-28, 2024</em>
+
+ 2024.
+ [<a href="https://bmvc2024.org/proceedings/205/" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>PACIFIC: Enhancing Sequential Recommendation via Preference-aware
+                  Causal Intervention and Counterfactual Data Augmentation</strong>.</span>
+<span class="pub-authors">Chen, Jinpeng and Guan, Huachen and Li, Huan and Zhang, Fan and Huang, Liwei and Pang, Guangyao and Jin, Xiongnan</span>
+
+  In <em>Proceedings of the 33rd ACM International Conference on Information
+                  and Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25,
+                  2024</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1145/3627673.3679803" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>GI-SMN: Gradient Inversion Attack Against Federated Learning Without
+                  Prior Knowledge</strong>.</span>
+<span class="pub-authors">Qian, Jin and Wei, Kaimin and Wu, Yongdong and Zhang, Jilian and Chen, Jinpeng and Bao, Huan</span>
+
+  In <em>Advanced Intelligent Computing Technology and Applications - 20th
+                  International Conference, ICIC 2024, Tianjin, China, August 5-8,
+                  2024, Proceedings, Part VIII</em>
+
+ 2024.
+ [<a href="https://doi.org/10.1007/978-981-97-5603-2_36" target="_blank" rel="noopener">Link</a>]
+
+</li></ol>
+<h2 class="bibliography">2023</h2>
+<ol class="bibliography"><li>
+<span class="pub-title"><strong>FePN: A robust feature purification network to defend against adversarial
+                  examples</strong>.</span>
+<span class="pub-authors">Cao, Dongliang and Wei, Kaimin and Wu, Yongdong and Zhang, Jilian and Feng, Bingwen and Chen, Jinpeng</span>
+
+  <em>Comput. Secur.</em>
+
+ 2023.
+ [<a href="https://doi.org/10.1016/j.cose.2023.103427" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding
+                  for Next-POI Recommendation</strong>.</span>
+<span class="pub-authors">Liu, Xiaoqian and Li, Xiuyun and Cao, Yuan and Zhang, Fan and Jin, Xiongnan and Chen, Jinpeng</span>
+
+  In <em>IEEE International Conference on Multimedia and Expo, ICME 2023,
+                  Brisbane, Australia, July 10-14, 2023</em>
+
+ 2023.
+ [<a href="https://doi.org/10.1109/ICME55011.2023.00264" target="_blank" rel="noopener">Link</a>]
+
+</li>
+<li>
+<span class="pub-title"><strong>SimCGNN: Simple Contrastive Graph Neural Network for Session-based
+                  Recommendation</strong>.</span>
+<span class="pub-authors">Cao, Yuan and Zhang, Xudong and Zhang, Fan and Kou, Feifei and Poon, Josiah and Jin, Xiongnan and Wang, Yongheng and Chen, Jinpeng</span>
+
+  <em>CoRR</em>
+
+ 2023.
+ [<a href="https://doi.org/10.48550/arXiv.2302.03997" target="_blank" rel="noopener">Link</a>]
+
+</li></ol>
+
+<h1 id="honors-and-teaching-awards">Honors and Teaching Awards</h1>
+<p><span class="anchor" id="honors"></span></p>
+
+<ul>
+  <li>National Graduate Education Essay Award (Excellence); CCGEC 2025 Best Paper (First Prize); CECC 2024 Teaching Case (First Prize).</li>
+  <li>3rd Prize, 12th Excellent Higher Education Paper; Zhou Jiongpang Outstanding Young Teacher Award; “ChuanYou 70” Teaching Innovation Award.</li>
+  <li>BUPT Graduate Teaching Achievement Award (Second Prize); BUPT Teaching Observation Competition (Second Prize);
+BUPT Young Teachers’ Teaching Skills (Second Prize); BUPT Teaching Innovation Competition (Second Prize).</li>
+  <li>Outstanding Instructor for Undergraduate Innovation &amp; Entrepreneurship projects.</li>
+</ul>
+
+<h2 id="student-mentoring">Student Mentoring</h2>
+
+<ul>
+  <li>Supervised <strong>20</strong> Undergraduate Innovation &amp; Entrepreneurship Training Projects (7 national, 9 municipal).</li>
+  <li>Students received BUPT Innovation &amp; Entrepreneurship Practice Awards: <em>First Prize (2019)</em>, <em>Second Prize ×2 (2021)</em>, <em>Third Prize ×2 (2018, 2021)</em>.</li>
+  <li>Graduate mentees won <em>Third Prize</em> at the BUPT Graduate Innovation &amp; Entrepreneurship Exhibition (2020).</li>
+</ul>
+
+<h1 id="teaching">Teaching</h1>
+<p><span class="anchor" id="teaching"></span></p>
+
+<p>Selected undergraduate and graduate courses with brief descriptions, instructors, and offering unit.</p>
+
+<div class="course-list">
+
+  <article class="course-item">
+    <div class="course-term">Spring 2025</div>
+    <div>
+      <h3>Operating Systems</h3>
+      <p class="course-meta">Undergraduate · Jinpeng Chen · School of Computer Science (National Model Software College)</p>
+      <p>Principles + implementation: process/thread model, scheduling and synchronization, virtual memory and paging, I/O and filesystem. A series of labs guide students to understand key OS mechanisms from the ground up.
+</p>
+
+      <p class="course-tags">
+        <span>Processes</span><span>Threads</span><span>Memory</span><span>Filesystem</span><span>Synchronization</span>
+      </p>
+
     </div>
+  </article>
 
-    <div class="talk">
-      <div class="talk-date">2025-06-23</div>
-      <div>
-        <div class="talk-title">Academic Talk (Invited)</div>
-        <div class="talk-meta">Zhejiang Normal University.</div>
-      </div>
+  <article class="course-item">
+    <div class="course-term">Fall 2024</div>
+    <div>
+      <h3>Cloud Computing</h3>
+      <p class="course-meta">Undergraduate · Jinpeng Chen · School of Computer Science (National Model Software College)</p>
+      <p>Core technologies and hands-on engineering for cloud platforms: virtualization and containers, cloud-native architecture, microservices and service mesh, and Kubernetes-based deployment/operations with practical labs and a course project.
+</p>
+
+      <p class="course-tags">
+        <span>Distributed Systems</span><span>Virtualization</span><span>Containers</span><span>Cloud-Native</span>
+      </p>
+
     </div>
+  </article>
 
-    <div class="talk">
-      <div class="talk-date">2025-03-21</div>
-      <div>
-        <div class="talk-title">Future Recommendation: Exploring Paths to Personalized Recommendation in the LLM Era</div>
-        <div class="talk-meta">Special guest, <em>YOCSEF Jinan Technical Forum</em>, National Supercomputing Center Jinan Science Park (Main Building 451).</div>
-      </div>
+  <article class="course-item">
+    <div class="course-term">Fall 2024</div>
+    <div>
+      <h3>Frontiers in Cross-Media Recommender Systems</h3>
+      <p class="course-meta">Graduate · Jinpeng Chen · School of Computer Science (National Model Software College)</p>
+      <p>Multimodal representation learning and sequential recommendation: alignment of image/text/time, preference-aware causal intervention, robustness via data augmentation, and paper-to-practice reproduction with open-source toolchains.
+</p>
+
+      <p class="course-tags">
+        <span>Multimodal</span><span>Sequential Rec</span><span>Causal Intervention</span><span>Data Augmentation</span>
+      </p>
+
     </div>
+  </article>
 
-    <div class="talk">
-      <div class="talk-date">2024-12-11</div>
-      <div>
-        <div class="talk-title">Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation</div>
-        <div class="talk-meta">Invited talk at the <em>Zhixing Forum: Frontiers of Data Mining and Embodied Intelligence</em>, Beijing Jiaotong University (Siyuan Time Café).</div>
-      </div>
+  <article class="course-item">
+    <div class="course-term">Spring 2025</div>
+    <div>
+      <h3>Foundations and Applications of Large Language Models</h3>
+      <p class="course-meta">Graduate · Jinpeng Chen, Zhenye Yang, Fan Zhang · Academic Affairs Office</p>
+      <p>End-to-end LLM pipeline: pretraining/finetuning, alignment and evaluation, parameter-efficient tuning and compression for deployment, and multi-agent collaboration. The course project delivers a working demo from data to application.
+</p>
+
+      <p class="course-tags">
+        <span>LLM</span><span>PEFT</span><span>Model Compression</span><span>Multi-Agent</span><span>Deployment</span>
+      </p>
+
     </div>
+  </article>
 
-    <div class="talk">
-      <div class="talk-date">2024-11-22</div>
-      <div>
-        <div class="talk-title">Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation</div>
-        <div class="talk-meta">Keynote at the <em>CETC Taiji / Institute 15 Youth Academic Exchange &amp; Inaugural Meeting of the CSE Young Editorial Board</em>.</div>
-      </div>
-    </div>
+</div>
 
-    <div class="talk">
-      <div class="talk-date">2024-11-16</div>
-      <div>
-        <div class="talk-title">Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation</div>
-        <div class="talk-meta">Invited talk at the <em>AI for Science</em> Academic Forum, BUPT Research Institute (on campus).</div>
-      </div>
-    </div>
+<h1 id="service">Service</h1>
+<p><span class="anchor" id="service"></span></p>
 
-    <div class="talk">
-      <div class="talk-date">2024-10-13</div>
-      <div>
-        <div class="talk-title">Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation</div>
-        <div class="talk-meta">Invited speaker, <em>The 12th China National Conference on Social Media Processing (SMP 2024)</em>, Xinxiang, China.</div>
-      </div>
-    </div>
+<h2 id="professional-committees">Professional Committees</h2>
 
-    <div class="talk">
-      <div class="talk-date">2023-11-24</div>
-      <div>
-        <div class="talk-title">Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation</div>
-        <div class="talk-meta">Talk at <em>CCIR 2023 Summer School</em>, Beijing, China.</div>
-      </div>
-    </div>
+<ul>
+  <li>Member, <strong>China AI Education Alliance</strong>.</li>
+  <li>Reviewer, <strong>CSCIED Scientific Evaluation Database</strong>.</li>
+  <li>Executive Member, <strong>CCF Technical Committee on Big Data</strong>.</li>
+  <li>Executive Member, <strong>CCF Technical Committee on Artificial Intelligence &amp; Pattern Recognition</strong>.</li>
+  <li>Executive Member, <strong>CCF Technical Committee on Databases</strong>.</li>
+  <li>Founding Executive Member, <strong>CCF Large Model Forum</strong>.</li>
+  <li>Member, <strong>CAAI Technical Committee on Intelligent Service</strong>.</li>
+  <li>Member, <strong>CAAI Technical Committee on Embodied Intelligence</strong>.</li>
+  <li>Member, <strong>CIPS Young Scholars Committee</strong>.</li>
+  <li>Member, <strong>CIPS Technical Committee on Social Media Processing</strong>.</li>
+  <li>Member, <strong>CIPS Technical Committee on Language and Knowledge Computing</strong>.</li>
+  <li>Member, <strong>CCF YOCSEF Headquarters</strong>.</li>
+</ul>
 
-    <div class="talk">
-      <div class="talk-date">2023-07-22</div>
-      <div>
-        <div class="talk-title">Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation</div>
-        <div class="talk-meta">Talk at <em>KDD China 2023 Summer School</em>, Chengdu, China.</div>
-      </div>
-    </div>
+<h2 id="editorial-boards">Editorial Boards</h2>
 
-  </div>
-</section>
+<ul>
+  <li><strong>Early-Career Editorial Board Member</strong>, <em>Big Data Mining and Analytics</em>.</li>
+  <li><strong>Executive Committee Member</strong>, <em>Computer Science</em> (《计算机科学》).</li>
+  <li><strong>Editorial Board Member</strong>, <em>Journal of Social Computing</em>.</li>
+  <li><strong>Early-Career Editorial Board Member</strong>, <em>Computer Science and Exploration</em> (《计算机科学与探索》).</li>
+  <li><strong>Assistant Editor</strong>, <em>Journal of Intelligent Systems</em> (《智能系统学报》).</li>
+</ul>
 
+<h2 id="program-leadership--program-committees">Program Leadership &amp; Program Committees</h2>
 
-  </main>
+<ul>
+  <li><strong>Area Chair</strong>, <em>CCL 2025</em> (Chinese Computational Linguistics).</li>
+  <li><strong>Program Committee</strong>: <em>The Web Conference (WWW) 2025</em>, <em>IJCAI 2024–2025</em>, <em>ACM Multimedia 2025</em>, <em>AAAI 2025</em>, and other major venues.</li>
+</ul>
 
-  
+<h2 id="reviewer-journals--conferences">Reviewer (Journals &amp; Conferences)</h2>
+
+<p>Served as reviewer for leading journals and conferences, including:</p>
+
+<ul class="two-col">
+  <li><em>ACM TOIS</em></li>
+  <li><em>IEEE TKDE</em></li>
+  <li><em>ACM TKDD</em></li>
+  <li><em>IEEE TNNLS</em></li>
+  <li><em>IEEE TFS</em></li>
+  <li><em>IEEE TCYB</em></li>
+  <li><em>IEEE TCC</em></li>
+  <li><em>DKE</em></li>
+  <li><em>WWW</em></li>
+  <li><em>KDD</em></li>
+  <li><em>ACM MM</em></li>
+  <li><em>CIKM</em></li>
+  <li><em>DASFAA</em></li>
+  <li><em>ACM SIGSPATIAL (GIS)</em></li>
+</ul>
+
+<h1 id="talks">Talks</h1>
+<p><span class="anchor" id="talks"></span></p>
+
+<ul>
+  <li><em>2025-11-02</em> Preference-aware Causal Intervention and Intent-driven Sequential Recommendation. Invited talk at the <em>11th China Conference on Intelligent Technology and Big Data (CITBD 2025)</em>.</li>
+  <li><em>2025-06-23</em> Academic Talk (Invited). Zhejiang Normal University.</li>
+  <li><em>2025-03-21</em> Future Recommendation: Exploring Paths to Personalized Recommendation in the LLM Era. Special guest, <em>YOCSEF Jinan Technical Forum</em>, National Supercomputing Center Jinan Science Park (Main Building 451).</li>
+  <li><em>2024-12-11</em> Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation. Invited talk at the <em>Zhixing Forum: Frontiers of Data Mining and Embodied Intelligence</em>, Beijing Jiaotong University (Siyuan Time Café).</li>
+  <li><em>2024-11-22</em> Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation. Keynote at the <em>CETC Taiji / Institute 15 Youth Academic Exchange &amp; Inaugural Meeting of the CSE Young Editorial Board</em>.</li>
+  <li><em>2024-11-16</em> Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation. Invited talk at the <em>AI for Science</em> Academic Forum, BUPT Research Institute (on campus).</li>
+  <li><em>2024-10-13</em> Enhancing Sequential Recommendation via Preference-aware Causal Intervention and Data Augmentation. Invited speaker, <em>The 12th China National Conference on Social Media Processing (SMP 2024)</em>, Xinxiang, China.</li>
+  <li><em>2023-11-24</em> Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation. Talk at <em>CCIR 2023 Summer School</em>, Beijing, China.</li>
+  <li><em>2023-07-22</em> Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation. Talk at <em>KDD China 2023 Summer School</em>, Chengdu, China.</li>
+</ul>
+
+<h1 id="affiliations">Affiliations</h1>
+<p><span class="anchor" id="affiliations"></span></p>
 
 <section class="affiliations">
   <div class="container narrow">
     <ul class="aff-logos">
-      
+
       <li class="aff-logo">
         <a href="https://www.bupt.edu.cn/" target="_blank" rel="noopener" aria-label="Beijing University of Posts and Telecommunications">
-          <img src="/assets/img/affiliations/bupt.png"
-               alt="Beijing University of Posts and Telecommunications"
-               loading="lazy" decoding="async"
-               style="--s: 1.5;">
+          <img src="/jpchen/assets/img/affiliations/bupt.png" alt="Beijing University of Posts and Telecommunications" loading="lazy" decoding="async" style="--s: 1.5;" />
         </a>
       </li>
-      
+
       <li class="aff-logo">
         <a href="https://mekltdcs.bupt.edu.cn/" target="_blank" rel="noopener" aria-label="Key Laboratory of TDCS">
-          <img src="/assets/img/affiliations/tdcs.png"
-               alt="Key Laboratory of TDCS"
-               loading="lazy" decoding="async"
-               style="--s: 1.6;">
+          <img src="/jpchen/assets/img/affiliations/tdcs.png" alt="Key Laboratory of TDCS" loading="lazy" decoding="async" style="--s: 1.6;" />
         </a>
       </li>
-      
+
       <li class="aff-logo">
         <a href="https://acdc-lab.github.io/" target="_blank" rel="noopener" aria-label="ACDC">
-          <img src="/assets/img/affiliations/acdc.png"
-               alt="ACDC"
-               loading="lazy" decoding="async"
-               style="--s: 1.5;">
+          <img src="/jpchen/assets/img/affiliations/acdc.png" alt="ACDC" loading="lazy" decoding="async" style="--s: 1.5;" />
         </a>
       </li>
-      
+
       <li class="aff-logo">
         <a href="https://www.en.aau.dk" target="_blank" rel="noopener" aria-label="Aalborg University">
-          <img src="/assets/img/affiliations/aau.png"
-               alt="Aalborg University"
-               loading="lazy" decoding="async"
-               style="--s: 1.5;">
+          <img src="/jpchen/assets/img/affiliations/aau.png" alt="Aalborg University" loading="lazy" decoding="async" style="--s: 1.5;" />
         </a>
       </li>
-      
+
       <li class="aff-logo">
         <a href="https://www.sydney.edu.au/" target="_blank" rel="noopener" aria-label="Sydney University">
-          <img src="/assets/img/affiliations/sydney.png"
-               alt="Sydney University"
-               loading="lazy" decoding="async"
-               style="--s: 1.5;">
+          <img src="/jpchen/assets/img/affiliations/sydney.png" alt="Sydney University" loading="lazy" decoding="async" style="--s: 1.5;" />
         </a>
       </li>
-      
+
       <li class="aff-logo">
         <a href="https://www.dat.aau.dk/forskning/dess-data-engineering-science-and-systems" target="_blank" rel="noopener" aria-label="Daisy Lab, Aalborg University">
-          <img src="/assets/img/affiliations/aau.png"
-               alt="Daisy Lab, Aalborg University"
-               loading="lazy" decoding="async"
-               style="--s: 1.5;">
+          <img src="/jpchen/assets/img/affiliations/daisy.png" alt="Daisy Lab, Aalborg University" loading="lazy" decoding="async" style="--s: 1.5;" />
         </a>
       </li>
-      
+
     </ul>
   </div>
 </section>
 
 
+        </section>
+      </div>
+    </main>
+  </div>
 
   <footer class="site-footer">
-    <div class="container narrow">
-      <span>© 2025 Prof. Jinpeng Chen</span>
-      <span class="sep"> Y·M</span>
+    <div class="footer-inner">
+      <span>© 2026 Prof. Jinpeng Chen</span>
       <button id="toggleTheme" aria-label="Toggle theme">Toggle theme</button>
     </div>
   </footer>
