@@ -115,15 +115,21 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   color:var(--text);
   background:transparent;
 }
-.profile-photo{
-  display:block;
+.profile-photo-frame{
   width:220px;
   max-width:100%;
   margin:0 0 1em;
-  padding:10px;
+  overflow:hidden;
   border-radius:4px;
   background:#6f7885;
   border:1px solid var(--border);
+}
+.profile-photo{
+  display:block;
+  width:calc(100% + 16px);
+  max-width:none;
+  height:auto;
+  margin:-2px -8px -10px;
 }
 .profile-name{
   margin:.2em 0 .15em;
@@ -345,9 +351,11 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
     border-bottom:1px solid var(--border);
   }
   .profile-photo{
+    width:120px;
+  }
+  .profile-photo-frame{
     grid-row:1 / span 4;
     width:120px;
-    padding:6px;
   }
   .profile-meta,.profile-links{margin:.45em 0}
   .profile-links{border:0;padding:0}
@@ -368,7 +376,7 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   .masthead__menu-item:last-child a{text-align:left}
   .site-shell{padding:1.1em .9em}
   .profile-box{grid-template-columns:96px 1fr}
-  .profile-photo{width:96px}
+  .profile-photo-frame{width:96px}
   .teach-grid{grid-template-columns:1fr}
   .footer-inner{flex-direction:column}
 }
