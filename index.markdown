@@ -59,11 +59,6 @@ We emphasize principled modeling, robust evaluation, and deployable systems.
 
 Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (arXiv/CoRR) are excluded.
 
-# 🎓 Students
-<p><span class="anchor" id="students"></span></p>
-
-Our group has nurtured many outstanding students. See the full alumni list on the [Students](/students/) page.
-
 {% bibliography
    --group_by year
    --group_order descending
@@ -80,6 +75,11 @@ Our group has nurtured many outstanding students. See the full alumni list on th
        )
      ]
 %}
+
+# 🎓 Students
+<p><span class="anchor" id="students"></span></p>
+
+Our group has nurtured many outstanding students. Visit the [Students](/students/) page for the full alumni list.
 
 # 🏆 Honors and Teaching Awards
 <p><span class="anchor" id="honors"></span></p>
