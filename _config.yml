@@ -54,7 +54,7 @@ scholar:
 
 nav:
   - name: News
-    url: /news/
+    url: /#news
   - name: Publications
     url: /publications/
   - name: Service

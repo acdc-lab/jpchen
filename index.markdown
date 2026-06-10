@@ -19,6 +19,11 @@ SMP–IDATA Morning Star, BUPT research initiatives, and key lab open grants.
 I have published <strong>100+ papers</strong> in venues such as <em>SIGIR, NeurIPS, AAAI, ACM MM, EMNLP, TMC, TMM,</em> and <em>TNNLS</em>,
 received the ICONIP 2022 Best Paper Award, and hold 8 patents.
 
+# News
+<p><span class="anchor" id="news"></span></p>
+
+- **2026.06** — Congratulations to Zhang Fan, Jianxiang, and Ma Jian on their successful graduation! 🎉
+
 # Research
 <p><span class="anchor" id="research"></span></p>
 
