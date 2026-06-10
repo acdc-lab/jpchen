@@ -380,3 +380,25 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   .teach-grid{grid-template-columns:1fr}
   .footer-inner{flex-direction:column}
 }
+
+.alumni-list{
+  list-style:none;
+  padding:0;
+  margin:1em 0;
+}
+.alumni-list > li{
+  margin-bottom:1.2em;
+}
+.alumni-list > li > strong{
+  font-size:1.05em;
+  color:var(--heading);
+}
+.alumni-list ul{
+  list-style:none;
+  padding-left:1.2em;
+  margin:.3em 0;
+}
+.alumni-list ul li{
+  margin-bottom:.35em;
+  color:var(--text);
+}

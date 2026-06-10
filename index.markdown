@@ -59,6 +59,11 @@ We emphasize principled modeling, robust evaluation, and deployable systems.
 
 Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (arXiv/CoRR) are excluded.
 
+# 🎓 Students
+<p><span class="anchor" id="students"></span></p>
+
+Our group has nurtured many outstanding students. See the full alumni list on the [Students](/students/) page.
+
 {% bibliography
    --group_by year
    --group_order descending
@@ -84,12 +89,6 @@ Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (
 - BUPT Graduate Teaching Achievement Award (Second Prize); BUPT Teaching Observation Competition (Second Prize);
   BUPT Young Teachers’ Teaching Skills (Second Prize); BUPT Teaching Innovation Competition (Second Prize).
 - Outstanding Instructor for Undergraduate Innovation &amp; Entrepreneurship projects.
-
-## Student Mentoring
-
-- Supervised <strong>20</strong> Undergraduate Innovation &amp; Entrepreneurship Training Projects (7 national, 9 municipal).
-- Students received BUPT Innovation &amp; Entrepreneurship Practice Awards: <em>First Prize (2019)</em>, <em>Second Prize ×2 (2021)</em>, <em>Third Prize ×2 (2018, 2021)</em>.
-- Graduate mentees won <em>Third Prize</em> at the BUPT Graduate Innovation &amp; Entrepreneurship Exhibition (2020).
 
 # 📖 Teaching
 <p><span class="anchor" id="teaching"></span></p>
