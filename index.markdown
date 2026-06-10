@@ -178,11 +178,6 @@ Served as reviewer for leading journals and conferences, including:
 - <em>2023-11-24</em> Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation. Talk at <em>CCIR 2023 Summer School</em>, Beijing, China.
 - <em>2023-07-22</em> Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation. Talk at <em>KDD China 2023 Summer School</em>, Chengdu, China.
 
-# 🏛️ Affiliations
-<p><span class="anchor" id="affiliations"></span></p>
-
-{% include affiliations.html %}
-
 # 🎓 Students
 <p><span class="anchor" id="students"></span></p>
 
@@ -279,3 +274,8 @@ I am so fortunate to have worked with these students:
     </ul>
   </li>
 </ul>
+
+# 🏛️ Affiliations
+<p><span class="anchor" id="affiliations"></span></p>
+
+{% include affiliations.html %}
