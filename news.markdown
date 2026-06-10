@@ -10,7 +10,7 @@ permalink: /news/
   <ul class="news-list">
     <li>
       <span class="news-date">2026.06</span>
-      <span class="news-content">祝贺张帆、健翔、马健顺利毕业！🎉</span>
+      <span class="news-content">Congratulations to Zhang Fan, Jianxiang, and Ma Jian on their successful graduation! 🎉</span>
     </li>
   </ul>
 
