@@ -53,6 +53,8 @@ scholar:
   bibliography_template: bib_entry
 
 nav:
+  - name: News
+    url: /news/
   - name: Publications
     url: /publications/
   - name: Service
