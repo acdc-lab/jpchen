@@ -19,12 +19,12 @@ SMP–IDATA Morning Star, BUPT research initiatives, and key lab open grants.
 I have published <strong>100+ papers</strong> in venues such as <em>SIGIR, NeurIPS, AAAI, ACM MM, EMNLP, TMC, TMM,</em> and <em>TNNLS</em>,
 received the ICONIP 2022 Best Paper Award, and hold 8 patents.
 
-# News
+# 📢 News
 <p><span class="anchor" id="news"></span></p>
 
 - **2026.06** — Congratulations to Zhang Fan, Jianxiang, and Ma Jian on their successful graduation! 🎉
 
-# Research
+# 🔬 Research
 <p><span class="anchor" id="research"></span></p>
 
 Our group focuses on four tightly connected directions: <strong>Social Media &amp; Data Mining</strong>,
@@ -54,7 +54,7 @@ We emphasize principled modeling, robust evaluation, and deployable systems.
 - <strong>Spatiotemporal Forecasting:</strong> multi-scale temporal modeling, spatial attention and diffusion on grids/graphs, probabilistic forecasting and uncertainty.
 - <strong>Autonomous-Driving Assistance:</strong> perception–map–trajectory fusion, intention and risk prediction for driving decision support under real-time constraints.
 
-# Publications
+# 📚 Selected Publications
 <p><span class="anchor" id="publications"></span></p>
 
 Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (arXiv/CoRR) are excluded.
@@ -76,7 +76,7 @@ Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (
      ]
 %}
 
-# Honors and Teaching Awards
+# 🏆 Honors and Teaching Awards
 <p><span class="anchor" id="honors"></span></p>
 
 - National Graduate Education Essay Award (Excellence); CCGEC 2025 Best Paper (First Prize); CECC 2024 Teaching Case (First Prize).
@@ -91,7 +91,7 @@ Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (
 - Students received BUPT Innovation &amp; Entrepreneurship Practice Awards: <em>First Prize (2019)</em>, <em>Second Prize ×2 (2021)</em>, <em>Third Prize ×2 (2018, 2021)</em>.
 - Graduate mentees won <em>Third Prize</em> at the BUPT Graduate Innovation &amp; Entrepreneurship Exhibition (2020).
 
-# Teaching
+# 📖 Teaching
 <p><span class="anchor" id="teaching"></span></p>
 
 Selected undergraduate and graduate courses with brief descriptions, instructors, and offering unit.
@@ -119,7 +119,7 @@ Selected undergraduate and graduate courses with brief descriptions, instructors
 No course data yet. Add entries to <code>_data/teaching.yml</code>.
 {% endif %}
 
-# Service
+# 🤝 Service
 <p><span class="anchor" id="service"></span></p>
 
 ## Professional Committees
@@ -171,7 +171,7 @@ Served as reviewer for leading journals and conferences, including:
   <li><em>ACM SIGSPATIAL (GIS)</em></li>
 </ul>
 
-# Talks
+# 🎤 Talks
 <p><span class="anchor" id="talks"></span></p>
 
 - <em>2025-11-02</em> Preference-aware Causal Intervention and Intent-driven Sequential Recommendation. Invited talk at the <em>11th China Conference on Intelligent Technology and Big Data (CITBD 2025)</em>.
@@ -184,7 +184,7 @@ Served as reviewer for leading journals and conferences, including:
 - <em>2023-11-24</em> Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation. Talk at <em>CCIR 2023 Summer School</em>, Beijing, China.
 - <em>2023-07-22</em> Mandari: Multi-Modal Temporal Knowledge Graph-aware Sub-graph Embedding for Next-POI Recommendation. Talk at <em>KDD China 2023 Summer School</em>, Chengdu, China.
 
-# Affiliations
+# 🏛️ Affiliations
 <p><span class="anchor" id="affiliations"></span></p>
 
 {% include affiliations.html %}

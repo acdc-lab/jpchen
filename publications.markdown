@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Publications
+title: Selected Publications
 permalink: /publications/
 ---
 
 <section class="section">
-  <div class="title"><span class="emoji">📚</span><h1 style="margin:0">Publications</h1></div>
+  <div class="title"><span class="emoji">📚</span><h1 style="margin:0">Selected Publications</h1></div>
   <p class="meta">Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (arXiv/CoRR) are excluded.</p>
 
   {% bibliography
