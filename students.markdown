@@ -44,7 +44,6 @@ I am so fortunate to have worked with these students:
   </li>
   <li><strong>2022:</strong>
     <ul>
-      <li>马瑞遥 — 新加坡国立大学-RA，博士生</li>
       <li>李海洋 — 美团-算法策略岗</li>
       <li>周瑶瑶 — 阿里巴巴集团-后端开发工程师</li>
       <li>胡哈蕾 — 华为-软件开发工程师</li>
@@ -53,12 +52,6 @@ I am so fortunate to have worked with these students:
   <li><strong>2021:</strong>
     <ul>
       <li>耿新尧 — Apple</li>
-      <li>张静怡 — 易方达基金 IT</li>
-    </ul>
-  </li>
-  <li><strong>2019:</strong>
-    <ul>
-      <li>张佩 — 广西大学-助理教授</li>
     </ul>
   </li>
 </ul>
@@ -81,11 +74,23 @@ I am so fortunate to have worked with these students:
     <ul>
       <li>陈昱滔 — 澳门大学-博士生</li>
       <li>张超伟 — 厦门建发-信息岗</li>
+      <li>马瑞遥 — 新加坡国立大学-RA，博士生</li>
     </ul>
   </li>
   <li><strong>2021:</strong>
     <ul>
       <li>熊博韬 — 四川电信-AI工程师</li>
+      <li>张静怡 — 易方达基金 IT</li>
+    </ul>
+  </li>
+  <li><strong>2020:</strong>
+    <ul>
+      <li>邓宇彤 — 留学</li>
+    </ul>
+  </li>
+  <li><strong>2019:</strong>
+    <ul>
+      <li>张佩 — 广西大学-助理教授</li>
     </ul>
   </li>
   <li><strong>2020:</strong>
