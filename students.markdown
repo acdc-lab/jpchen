@@ -80,7 +80,6 @@ I am so fortunate to have worked with these students:
   <li><strong>2021:</strong>
     <ul>
       <li>熊博韬 — 四川电信-AI工程师</li>
-      <li>张静怡 — 易方达基金 IT</li>
     </ul>
   </li>
   <li><strong>2020:</strong>
@@ -91,6 +90,11 @@ I am so fortunate to have worked with these students:
   <li><strong>2019:</strong>
     <ul>
       <li>张佩 — 广西大学-助理教授</li>
+    </ul>
+  </li>
+  <li><strong>2018:</strong>
+    <ul>
+      <li>张静怡 — 易方达基金 IT</li>
     </ul>
   </li>
   <li><strong>2020:</strong>
