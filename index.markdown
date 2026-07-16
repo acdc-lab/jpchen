@@ -191,9 +191,25 @@ Served as reviewer for leading journals and conferences, including:
 
 I am so fortunate to have worked with these students:
 
+### Doctoral Graduates
+
+<ul class="alumni-list">
+  <li><strong>2026:</strong>
+    <ul>
+      <li>张帆 — 中国电科院</li>
+    </ul>
+  </li>
+</ul>
+
 ### Master Graduates
 
 <ul class="alumni-list">
+  <li><strong>2026:</strong>
+    <ul>
+      <li>贺健翔 — 字节跳动</li>
+      <li>马健 — 字节跳动</li>
+    </ul>
+  </li>
   <li><strong>2025:</strong>
     <ul>
       <li>关华琛 — 美团-营销推荐算法</li>
