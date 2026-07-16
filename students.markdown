@@ -16,9 +16,25 @@ permalink: /students/
 
 I am so fortunate to have worked with these students:
 
+### Doctoral Graduates
+
+<ul class="alumni-list">
+  <li><strong>2026:</strong>
+    <ul>
+      <li>张帆 — 中国电科院</li>
+    </ul>
+  </li>
+</ul>
+
 ### Master Graduates
 
 <ul class="alumni-list">
+  <li><strong>2026:</strong>
+    <ul>
+      <li>贺健翔 — 字节跳动</li>
+      <li>马健 — 字节跳动</li>
+    </ul>
+  </li>
   <li><strong>2025:</strong>
     <ul>
       <li>关华琛 — 美团-营销推荐算法</li>
@@ -95,11 +111,6 @@ I am so fortunate to have worked with these students:
   <li><strong>2018:</strong>
     <ul>
       <li>张静怡 — 易方达基金 IT</li>
-    </ul>
-  </li>
-  <li><strong>2020:</strong>
-    <ul>
-      <li>邓宇彤 — 留学</li>
     </ul>
   </li>
   <li><strong>2017:</strong>
