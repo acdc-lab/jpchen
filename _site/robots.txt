@@ -1,1 +1,1 @@
-Sitemap: https://acdc-lab.github.io/jpchen/sitemap.xml
+Sitemap: https://jpchen.github.io/sitemap.xml
