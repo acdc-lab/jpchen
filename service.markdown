@@ -34,6 +34,7 @@ permalink: /service/
 
   <h2>Program Leadership &amp; Program Committees</h2>
   <ul>
+    <li><strong>Session Chair</strong>, <em>“Edge–End Big Data Intelligence” Forum, the 14th CCF Big Data Conference (CCF BigData 2026)</em>, August 23, 2026.</li>
     <li><strong>Area Chair</strong>, <em>CCL 2025</em> (Chinese Computational Linguistics).</li>
     <li><strong>Program Committee</strong>: <em>The Web Conference (WWW) 2025</em>, <em>IJCAI 2024–2025</em>, <em>ACM Multimedia 2025</em>, <em>AAAI 2025</em>, and other major venues.</li>
   </ul>

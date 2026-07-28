@@ -141,6 +141,7 @@ No course data yet. Add entries to <code>_data/teaching.yml</code>.
 
 ## Program Leadership &amp; Program Committees
 
+- <strong>Session Chair</strong>, <em>“Edge–End Big Data Intelligence” Forum, the 14th CCF Big Data Conference (CCF BigData 2026)</em>, August 23, 2026.
 - <strong>Area Chair</strong>, <em>CCL 2025</em> (Chinese Computational Linguistics).
 - <strong>Program Committee</strong>: <em>The Web Conference (WWW) 2025</em>, <em>IJCAI 2024–2025</em>, <em>ACM Multimedia 2025</em>, <em>AAAI 2025</em>, and other major venues.
 
@@ -168,6 +169,7 @@ Served as reviewer for leading journals and conferences, including:
 # 🎤 Talks
 <p><span class="anchor" id="talks"></span></p>
 
+- <em>2026-08-01</em> From Preference Transfer to Intent Reasoning: Research on Generative Cross-Domain Recommendation. Invited talk at the <em>“Generative Search and Recommendation” Forum of the 11th CCF China Conference on Data Mining (CCDM 2026)</em>.
 - <em>2025-11-02</em> Preference-aware Causal Intervention and Intent-driven Sequential Recommendation. Invited talk at the <em>11th China Conference on Intelligent Technology and Big Data (CITBD 2025)</em>.
 - <em>2025-06-23</em> Academic Talk (Invited). Zhejiang Normal University.
 - <em>2025-03-21</em> Future Recommendation: Exploring Paths to Personalized Recommendation in the LLM Era. Special guest, <em>YOCSEF Jinan Technical Forum</em>, National Supercomputing Center Jinan Science Park (Main Building 451).
