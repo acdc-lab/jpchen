@@ -9,9 +9,7 @@ I am Jinpeng Chen, an Associate Professor and Doctoral Advisor at the
 School of Computer Science (National Model Software College), Beijing University of Posts and Telecommunications (BUPT).
 I am a Senior Member of CCF, a Senior Member of CIC, and a member of IEEE and ACM.
 My research interests include <strong>social media &amp; data mining</strong>, <strong>recommender systems</strong>,
-<strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>.
-
-<div class="about-citation"><a class="citation-badge" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Facdc-lab%2Fjpchen%40google-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citation count"></a></div>
+<strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>. <span class="about-citation"><a class="citation-badge" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Facdc-lab%2Fjpchen%40google-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citation count"></a></span>
 
 I have led or participated in <strong>40+ research projects</strong> funded by national programs, provincial/ministerial agencies, and industry partners.
 These include the National 973 Program, National Key R&amp;D Program, NSFC General/Youth Programs,
