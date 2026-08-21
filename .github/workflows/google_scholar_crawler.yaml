@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
       - name: Fetch Google Scholar stats
         run: |
@@ -26,6 +26,7 @@ jobs:
           python main.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ vars.GOOGLE_SCHOLAR_ID || 'nbyHGnsAAAAJ' }}
+          FALLBACK_CITEDBY: "1410"
 
       - name: Publish citation data
         run: |

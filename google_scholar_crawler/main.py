@@ -2,19 +2,28 @@ from datetime import datetime
 import json
 import os
 
-from scholarly import ProxyGenerator, scholarly
+from scholarly import scholarly
 
 
 scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
+fallback_citedby = os.environ.get("FALLBACK_CITEDBY", "0")
 
-pg = ProxyGenerator()
-pg.FreeProxies()
-scholarly.use_proxy(pg)
+try:
+    author = scholarly.search_author_id(scholar_id)
+    scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+except Exception as exc:
+    print(f"Failed to fetch Google Scholar data: {exc}")
+    author = {
+        "scholar_id": scholar_id,
+        "citedby": int(fallback_citedby),
+        "publications": [],
+        "fetch_error": str(exc),
+    }
 
-author = scholarly.search_author_id(scholar_id)
-scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
 author["updated"] = str(datetime.now())
-author["publications"] = {v["author_pub_id"]: v for v in author["publications"]}
+author["publications"] = {
+    v["author_pub_id"]: v for v in author.get("publications", []) if "author_pub_id" in v
+}
 
 os.makedirs("results", exist_ok=True)
 
