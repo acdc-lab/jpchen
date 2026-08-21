@@ -22,6 +22,9 @@ received the ICONIP 2022 Best Paper Award, and hold 8 patents.
 # 📢 News
 <p><span class="anchor" id="news"></span></p>
 
+- **2026.08** — Our paper "Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment" was accepted by EMNLP 2026 (Findings). 🎉
+- **2026.08** — Our paper "Structure Attribute Seesaw: Conflict Aware Embedding Decoupling in Attributed Graph Clustering" was accepted by IEEE ICDM 2026. 🎉
+- **2026.08** — Our paper "Diffusion Optimized Social Prompt: Adapting Pre-trained Recommenders for Cold-start Users" was accepted by IEEE ICDM 2026. 🎉
 - **2026.06** — Congratulations to Zhang Fan, Jianxiang, and Ma Jian on their successful graduation! 🎉
 
 # 🔬 Research
