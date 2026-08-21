@@ -156,11 +156,11 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   height:20px;
   width:auto;
 }
-.citation-badge--inline{
-  margin:0 0 0 .35em;
-  vertical-align:-.2em;
+.about-citation{
+  margin:-.2em 0 .75em;
+  line-height:1;
 }
-.citation-badge--inline img{display:inline-block}
+.about-citation .citation-badge{margin:0}
 .profile-meta,
 .profile-links{
   margin:.8em 0;
