@@ -24,7 +24,7 @@ jobs:
         run: |
           cd google_scholar_crawler
           pip install -r requirements.txt
-          python main.py
+          timeout 60s python main.py || python fallback.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ vars.GOOGLE_SCHOLAR_ID || 'nbyHGnsAAAAJ' }}
           FALLBACK_CITEDBY: "1410"
