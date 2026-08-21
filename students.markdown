@@ -75,6 +75,12 @@ I am so fortunate to have worked with these students:
 ### Undergraduate Alumni
 
 <ul class="alumni-list">
+  <li><strong>2026:</strong>
+    <ul>
+      <li>张钧渭 — 复旦大学 读研</li>
+      <li>密言 — 中国科学院计算技术研究所 保研</li>
+    </ul>
+  </li>
   <li><strong>2025:</strong>
     <ul>
       <li>黄天瑞 — 中国科学院大学软件学院</li>
