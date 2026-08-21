@@ -2,11 +2,18 @@ from datetime import datetime
 import json
 import os
 
-from scholarly import scholarly
+from scholarly import ProxyGenerator, scholarly
 
 
 scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
 fallback_citedby = os.environ.get("FALLBACK_CITEDBY", "0")
+
+try:
+    pg = ProxyGenerator()
+    if pg.FreeProxies():
+        scholarly.use_proxy(pg)
+except Exception as exc:
+    print(f"Continuing without a proxy: {exc}")
 
 try:
     author = scholarly.search_author_id(scholar_id)
