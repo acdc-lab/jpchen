@@ -146,6 +146,16 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   color:var(--muted);
   font-weight:700;
 }
+.citation-badge{
+  display:inline-block;
+  margin:0 0 .85em;
+  line-height:1;
+}
+.citation-badge img{
+  display:block;
+  height:20px;
+  width:auto;
+}
 .profile-meta,
 .profile-links{
   margin:.8em 0;
