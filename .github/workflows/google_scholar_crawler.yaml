@@ -27,7 +27,7 @@ jobs:
           timeout 60s python main.py || python fallback.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ vars.GOOGLE_SCHOLAR_ID || 'nbyHGnsAAAAJ' }}
-          FALLBACK_CITEDBY: "1410"
+          FALLBACK_CITEDBY: "1427"
 
       - name: Publish citation data
         run: |
