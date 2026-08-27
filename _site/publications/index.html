@@ -47,10 +47,7 @@
           <li>Beijing University of Posts and Telecommunications, Beijing, China</li>
         </ul>
         <ul class="profile-links">
-          <li class="profile-contact">
-            <button class="email-action" type="button" aria-label="Open email client">Email</button>
-            <button class="copy-email" type="button" aria-label="Copy email address">Copy</button>
-          </li>
+          <li><a href="mailto:jpchen@bupt.edu.cn">Email</a></li>
           <li><a href="https://scholar.google.com/citations?user=nbyHGnsAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
           <li><a href="https://acdc-lab.github.io" target="_blank">Lab Homepage</a></li>
           <li><a href="/jpchen/">Homepage</a></li>
@@ -497,28 +494,6 @@
     const cur=document.documentElement.dataset.theme;
     const next= cur==='dark' ? 'light' : cur==='light' ? 'auto' : 'dark';
     localStorage.setItem(key,next); apply(next);
-  });
-  const decodeEmailPart=(value)=>value.replace(/[a-z]/gi,(char)=>{
-    const base=char<='Z' ? 65 : 97;
-    return String.fromCharCode(((char.charCodeAt(0)-base+13)%26)+base);
-  });
-  const emailAddress=[decodeEmailPart('wcpura'), decodeEmailPart('ohcg.rqh.pa')].join('@');
-  document.querySelectorAll('.email-action').forEach((emailBtn)=>{
-    emailBtn.addEventListener('click', ()=>{
-      window.location.href='mailto:'+emailAddress;
-    });
-  });
-  document.querySelectorAll('.copy-email').forEach((copyBtn)=>{
-    const original=copyBtn.textContent;
-    copyBtn.addEventListener('click', async ()=>{
-      try{
-        await navigator.clipboard.writeText(emailAddress);
-        copyBtn.textContent='Copied';
-      }catch(_){
-        window.prompt('Copy email address:', emailAddress);
-      }
-      setTimeout(()=>{copyBtn.textContent=original},1600);
-    });
   });
 </script>
 </body>
