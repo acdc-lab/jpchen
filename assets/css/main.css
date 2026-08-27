@@ -185,9 +185,7 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   gap:.45em;
   flex-wrap:wrap;
 }
-.email-address{
-  overflow-wrap:anywhere;
-}
+.email-action,
 .copy-email{
   padding:.1em .45em;
   border:1px solid var(--rule);
@@ -199,6 +197,7 @@ th,td{padding:.55em;border-bottom:1px solid var(--rule);text-align:left;vertical
   line-height:1.45;
   cursor:pointer;
 }
+.email-action:hover,
 .copy-email:hover{
   color:var(--heading);
   border-color:var(--muted);
