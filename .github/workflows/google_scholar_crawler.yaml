@@ -27,7 +27,8 @@ jobs:
           timeout 60s python main.py || python fallback.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ vars.GOOGLE_SCHOLAR_ID || 'nbyHGnsAAAAJ' }}
-          FALLBACK_CITEDBY: "1427"
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          FALLBACK_CITEDBY: "1430"
 
       - name: Publish citation data
         run: |

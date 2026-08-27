@@ -10,8 +10,39 @@ from bs4 import BeautifulSoup
 scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
 fallback_citedby = os.environ.get("FALLBACK_CITEDBY", "0")
 scholar_url = f"https://scholar.google.com/citations?user={scholar_id}&hl=en"
+serpapi_api_key = os.environ.get("SERPAPI_API_KEY", "").strip()
 
-try:
+
+def fetch_from_serpapi():
+    if not serpapi_api_key:
+        raise RuntimeError("SERPAPI_API_KEY is not configured.")
+
+    response = requests.get(
+        "https://serpapi.com/search",
+        params={
+            "engine": "google_scholar_author",
+            "author_id": scholar_id,
+            "hl": "en",
+            "api_key": serpapi_api_key,
+        },
+        timeout=45,
+    )
+    response.raise_for_status()
+    data = response.json()
+    if data.get("error"):
+        raise RuntimeError(f"SerpAPI error: {data['error']}")
+
+    citations = data["cited_by"]["table"][0]["citations"]["all"]
+    return {
+        "scholar_id": scholar_id,
+        "citedby": int(citations),
+        "publications": data.get("articles", []),
+        "source": "serpapi",
+        "serpapi_search_id": data.get("search_metadata", {}).get("id"),
+    }
+
+
+def fetch_from_google_scholar_page():
     response = requests.get(
         scholar_url,
         headers={
@@ -47,14 +78,32 @@ try:
         "scholar_id": scholar_id,
         "citedby": int(match.group(1).replace(",", "")),
         "publications": [],
+        "source": "google_scholar_page",
     }
+    return author
+
+
+fetch_errors = []
+author = None
+
+for fetcher in [fetch_from_serpapi, fetch_from_google_scholar_page]:
+    try:
+        author = fetcher()
+        break
+    except Exception as exc:
+        fetch_errors.append(f"{fetcher.__name__}: {exc}")
+        print(f"Failed to fetch Google Scholar data via {fetcher.__name__}: {exc}")
+
+try:
+    if author is None:
+        raise RuntimeError("; ".join(fetch_errors))
 except Exception as exc:
-    print(f"Failed to fetch Google Scholar data: {exc}")
     author = {
         "scholar_id": scholar_id,
         "citedby": int(fallback_citedby),
         "publications": [],
         "fetch_error": str(exc),
+        "source": "fallback",
     }
 
 author["updated"] = str(datetime.now())
