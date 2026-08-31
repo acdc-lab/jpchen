@@ -3,7 +3,7 @@ name: Get Citation Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 22 * * *"
 
 permissions:
   contents: write
