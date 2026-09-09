@@ -40,39 +40,5 @@ permalink: /service/
   </ul>
 
   <h2>Reviewer (Journals &amp; Conferences)</h2>
-  <p>Served as reviewer for leading journals and conferences, including:</p>
-  <ul class="two-col">
-    <li><em>ACM TOIS</em></li>
-    <li><em>IEEE TKDE</em></li>
-    <li><em>ACM TKDD</em></li>
-    <li><em>IEEE TNNLS</em></li>
-    <li><em>IEEE TFS</em></li>
-    <li><em>IEEE TCYB</em></li>
-    <li><em>IEEE TCC</em></li>
-    <li><em>DKE</em></li>
-    <li><em>WWW</em></li>
-    <li><em>KDD</em></li>
-    <li><em>ACM MM</em></li>
-    <li><em>CIKM</em></li>
-    <li><em>DASFAA</em></li>
-    <li><em>ACM SIGSPATIAL (GIS)</em></li>
-  </ul>
+  <p>Served as reviewer for leading journals and conferences, including: <em>ACM TOIS</em>, <em>IEEE TKDE</em>, <em>WWW</em>, <em>KDD</em>, <em>ACM MM</em>.</p>
 </section>
-
-<style>
-/* optional: compact two-column list on wide screens */
-@media (min-width: 880px){
-  .two-col{
-    columns: 2;
-    column-gap: 40px;
-    list-style-position: inside;
-    padding-left: 0;
-    margin: 0;
-  }
-  .two-col li{
-    break-inside: avoid;
-    padding-left: .2rem;
-    margin: .25rem 0;
-  }
-}
-</style>

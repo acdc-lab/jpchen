@@ -150,24 +150,7 @@ No course data yet. Add entries to <code>_data/teaching.yml</code>.
 
 ## Reviewer (Journals &amp; Conferences)
 
-Served as reviewer for leading journals and conferences, including:
-
-<ul class="two-col">
-  <li><em>ACM TOIS</em></li>
-  <li><em>IEEE TKDE</em></li>
-  <li><em>ACM TKDD</em></li>
-  <li><em>IEEE TNNLS</em></li>
-  <li><em>IEEE TFS</em></li>
-  <li><em>IEEE TCYB</em></li>
-  <li><em>IEEE TCC</em></li>
-  <li><em>DKE</em></li>
-  <li><em>WWW</em></li>
-  <li><em>KDD</em></li>
-  <li><em>ACM MM</em></li>
-  <li><em>CIKM</em></li>
-  <li><em>DASFAA</em></li>
-  <li><em>ACM SIGSPATIAL (GIS)</em></li>
-</ul>
+Served as reviewer for leading journals and conferences, including: <em>ACM TOIS</em>, <em>IEEE TKDE</em>, <em>WWW</em>, <em>KDD</em>, <em>ACM MM</em>.
 
 # 🎤 Talks
 <p><span class="anchor" id="talks"></span></p>
