@@ -28,7 +28,8 @@ body{
   margin:0;
   color:var(--text);
   background:var(--bg);
-  font-family:"Trebuchet MS",Helvetica,Arial,sans-serif;
+  font-family:"Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  font-weight:300;
   line-height:1.5;
 }
 ::selection{color:#fff;background:#000}
@@ -40,7 +41,7 @@ ul,ol{margin:.5em 0 .9em;padding-left:2em}
 li{margin-bottom:.42em}
 h1,h2,h3,h4{
   color:var(--heading);
-  font-family:"Trebuchet MS",Helvetica,Arial,sans-serif;
+  font-family:"Roboto",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
   font-weight:700;
   line-height:1.2;
 }
