@@ -9,6 +9,7 @@ permalink: /service/
 
   <h2>Professional Committees</h2>
   <ul>
+    <li>Vice Director, <strong>World Young Scientists Association (WYSA) Committee on Digital-Intelligence Integration</strong>.</li>
     <li>Member, <strong>China AI Education Alliance</strong>.</li>
     <li>Reviewer, <strong>CSCIED Scientific Evaluation Database</strong>.</li>
     <li>Executive Member, <strong>CCF Technical Committee on Big Data</strong>.</li>
@@ -17,6 +18,7 @@ permalink: /service/
     <li>Founding Executive Member, <strong>CCF Large Model Forum</strong>.</li>
     <li>Member, <strong>CAAI Technical Committee on Intelligent Service</strong>.</li>
     <li>Member, <strong>CAAI Technical Committee on Embodied Intelligence</strong>.</li>
+    <li>Standing Member, <strong>CICC Committee on Medical-Engineering Integration</strong>.</li>
     <li>Member, <strong>CIPS Young Scholars Committee</strong>.</li>
     <li>Member, <strong>CIPS Technical Committee on Social Media Processing</strong>.</li>
     <li>Member, <strong>CIPS Technical Committee on Language and Knowledge Computing</strong>.</li>
@@ -25,9 +27,11 @@ permalink: /service/
 
   <h2>Editorial Boards</h2>
   <ul>
+    <li><strong>Editorial Board Member</strong>, <em>Scientific Reports</em>.</li>
     <li><strong>Early-Career Editorial Board Member</strong>, <em>Big Data Mining and Analytics</em>.</li>
     <li><strong>Executive Committee Member</strong>, <em>Computer Science</em> (《计算机科学》).</li>
     <li><strong>Editorial Board Member</strong>, <em>Journal of Social Computing</em>.</li>
+    <li><strong>Early-Career Editorial Board Member</strong>, <em>Journal of Huazhong University of Science and Technology</em> (《华中科技大学学报》).</li>
     <li><strong>Early-Career Editorial Board Member</strong>, <em>Computer Science and Exploration</em> (《计算机科学与探索》).</li>
     <li><strong>Assistant Editor</strong>, <em>Journal of Intelligent Systems</em> (《智能系统学报》).</li>
   </ul>
@@ -40,5 +44,5 @@ permalink: /service/
   </ul>
 
   <h2>Reviewer (Journals &amp; Conferences)</h2>
-  <p>Served as reviewer for leading journals and conferences, including: <em>SIGIR</em>, <em>WWW</em>, <em>NeurIPS</em>, <em>ICML</em>, <em>AAAI</em>, <em>ACM MM</em>, <em>ACL</em>, <em>EMNLP</em>, <em>TKDE</em>, <em>TMC</em>.</p>
+  <p>Served as reviewer for leading journals and conferences, including: <em>TOIS</em>, <em>TKDE</em>, <em>WWW</em>, <em>KDD</em>, <em>SIGIR</em>, <em>ICML</em>, <em>CVPR</em>.</p>
 </section>

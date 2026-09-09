@@ -8,7 +8,7 @@ permalink: /students/
 
 ## Student Mentoring
 
-- Supervised **20** Undergraduate Innovation & Entrepreneurship Training Projects (7 national, 9 municipal).
+- Supervised **22** Undergraduate Innovation & Entrepreneurship Training Projects (9 national, 9 municipal).
 - Students received BUPT Innovation & Entrepreneurship Practice Awards: *First Prize (2019)*, *Second Prize ×2 (2021)*, *Third Prize ×2 (2018, 2021)*.
 - Graduate mentees won *Third Prize* at the BUPT Graduate Innovation & Entrepreneurship Exhibition (2020).
 

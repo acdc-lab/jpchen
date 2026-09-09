@@ -6,10 +6,11 @@ title: Home
 <p><span class="anchor" id="about-me"></span></p>
 
 I am Jinpeng Chen, an Associate Professor and Doctoral Advisor at the
-School of Computer Science (National Model Software College), Beijing University of Posts and Telecommunications (BUPT).
+School of Computer Science (National Model Software College), Beijing University of Posts and Telecommunications (BUPT),
+and Deputy Director of the Digital &amp; Intelligent Transformation Department.
 I am a Senior Member of CCF, a Senior Member of CIC, and a member of IEEE and ACM.
-My research interests include <strong>social media &amp; data mining</strong>, <strong>recommender systems</strong>,
-<strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>. <span class="about-citation"><a class="citation-badge" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Facdc-lab%2Fjpchen%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citation count"></a></span>
+My research interests include <strong>data mining &amp; intelligent computing</strong>, <strong>AI &amp; applications</strong>,
+and <strong>multimodal learning</strong>. <span class="about-citation"><a class="citation-badge" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Facdc-lab%2Fjpchen%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citation count"></a></span>
 
 I have led or participated in <strong>40+ research projects</strong> funded by national programs, provincial/ministerial agencies, and industry partners.
 These include the National Key R&amp;D Program, National Science and Technology Innovation 2030 Major Projects,
@@ -83,11 +84,11 @@ Peer-reviewed journal/conference papers from <strong>2023+</strong>. Preprints (
 # 🏆 Honors and Teaching Awards
 <p><span class="anchor" id="honors"></span></p>
 
-- National Graduate Education Essay Award (Excellence); CCGEC 2025 Best Paper (First Prize); CECC 2024 Teaching Case (First Prize).
-- 3rd Prize, 12th Excellent Higher Education Paper; Zhou Jiongpang Outstanding Young Teacher Award; “ChuanYou 70” Teaching Innovation Award.
-- BUPT Graduate Teaching Achievement Award (Second Prize); BUPT Teaching Observation Competition (Second Prize);
-  BUPT Young Teachers’ Teaching Skills (Second Prize); BUPT Teaching Innovation Competition (Second Prize).
-- Outstanding Instructor for Undergraduate Innovation &amp; Entrepreneurship projects.
+- First Prize, China Institute of Electronics (CIE) Teaching Achievement Award; First Prize, Teaching Paper at the 14th Beijing Higher Education Young Teachers' Basic Teaching Skills Competition.
+- Excellence Award, National Information &amp; Electronic Disciplines Graduate Education Essay; CCGEC 2025 Best Paper (First Prize); CECC 2024 Teaching Case (First Prize).
+- Third Prize, 12th Excellent Higher Education Paper; Zhou Jiongpang Outstanding Young Teacher Award; “ChuanYou 70 · Truth-Seeking &amp; Innovation Pioneer” Award; “Beijing Mobile” Teaching Innovation Award.
+- BUPT Graduate Teaching Achievement Award (Second Prize); BUPT 15th Teaching Observation Competition (Second Prize); BUPT Young Teachers’ Basic Teaching Skills Competition (Second Prize); BUPT Teaching Innovation Competition (Second Prize).
+- “Outstanding Instructor” for the Undergraduate Innovation &amp; Entrepreneurship Training Program.
 
 # 📖 Teaching
 <p><span class="anchor" id="teaching"></span></p>
@@ -122,6 +123,7 @@ No course data yet. Add entries to <code>_data/teaching.yml</code>.
 
 ## Professional Committees
 
+- Vice Director, <strong>World Young Scientists Association (WYSA) Committee on Digital-Intelligence Integration</strong>.
 - Member, <strong>China AI Education Alliance</strong>.
 - Reviewer, <strong>CSCIED Scientific Evaluation Database</strong>.
 - Executive Member, <strong>CCF Technical Committee on Big Data</strong>.
@@ -130,6 +132,7 @@ No course data yet. Add entries to <code>_data/teaching.yml</code>.
 - Founding Executive Member, <strong>CCF Large Model Forum</strong>.
 - Member, <strong>CAAI Technical Committee on Intelligent Service</strong>.
 - Member, <strong>CAAI Technical Committee on Embodied Intelligence</strong>.
+- Standing Member, <strong>CICC Committee on Medical-Engineering Integration</strong>.
 - Member, <strong>CIPS Young Scholars Committee</strong>.
 - Member, <strong>CIPS Technical Committee on Social Media Processing</strong>.
 - Member, <strong>CIPS Technical Committee on Language and Knowledge Computing</strong>.
@@ -137,9 +140,11 @@ No course data yet. Add entries to <code>_data/teaching.yml</code>.
 
 ## Editorial Boards
 
+- <strong>Editorial Board Member</strong>, <em>Scientific Reports</em>.
 - <strong>Early-Career Editorial Board Member</strong>, <em>Big Data Mining and Analytics</em>.
 - <strong>Executive Committee Member</strong>, <em>Computer Science</em> (《计算机科学》).
 - <strong>Editorial Board Member</strong>, <em>Journal of Social Computing</em>.
+- <strong>Early-Career Editorial Board Member</strong>, <em>Journal of Huazhong University of Science and Technology</em> (《华中科技大学学报》).
 - <strong>Early-Career Editorial Board Member</strong>, <em>Computer Science and Exploration</em> (《计算机科学与探索》).
 - <strong>Assistant Editor</strong>, <em>Journal of Intelligent Systems</em> (《智能系统学报》).
 
@@ -151,7 +156,7 @@ No course data yet. Add entries to <code>_data/teaching.yml</code>.
 
 ## Reviewer (Journals &amp; Conferences)
 
-Served as reviewer for leading journals and conferences, including: <em>SIGIR</em>, <em>WWW</em>, <em>NeurIPS</em>, <em>ICML</em>, <em>AAAI</em>, <em>ACM MM</em>, <em>ACL</em>, <em>EMNLP</em>, <em>TKDE</em>, <em>TMC</em>.
+Served as reviewer for leading journals and conferences, including: <em>TOIS</em>, <em>TKDE</em>, <em>WWW</em>, <em>KDD</em>, <em>SIGIR</em>, <em>ICML</em>, <em>CVPR</em>.
 
 # 🎤 Talks
 <p><span class="anchor" id="talks"></span></p>
@@ -172,7 +177,7 @@ Served as reviewer for leading journals and conferences, including: <em>SIGIR</e
 
 ## Student Mentoring
 
-- Supervised **20** Undergraduate Innovation & Entrepreneurship Training Projects (7 national, 9 municipal).
+- Supervised **22** Undergraduate Innovation & Entrepreneurship Training Projects (9 national, 9 municipal).
 - Students received BUPT Innovation & Entrepreneurship Practice Awards: *First Prize (2019)*, *Second Prize ×2 (2021)*, *Third Prize ×2 (2018, 2021)*.
 - Graduate mentees won *Third Prize* at the BUPT Graduate Innovation & Entrepreneurship Exhibition (2020).
 
