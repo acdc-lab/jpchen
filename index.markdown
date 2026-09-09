@@ -12,12 +12,13 @@ My research interests include <strong>social media &amp; data mining</strong>, <
 <strong>large language models</strong>, and <strong>intelligent transportation &amp; spatiotemporal forecasting</strong>. <span class="about-citation"><a class="citation-badge" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Facdc-lab%2Fjpchen%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citation count"></a></span>
 
 I have led or participated in <strong>40+ research projects</strong> funded by national programs, provincial/ministerial agencies, and industry partners.
-These include the National 973 Program, National Key R&amp;D Program, NSFC General/Youth Programs,
-National Social Science Foundation, Beijing Natural Science Foundation,
+These include the National Key R&amp;D Program, National Science and Technology Innovation 2030 Major Projects,
+Major Projects on Cyberspace Security, NSFC General/Youth Programs, the National Social Science Foundation,
+Beijing Natural Science Foundation Key/Frontier/Haidian Joint/Youth Programs,
 and collaborative funds from CCF–Tencent Rhino Bird, CCF–Zhejiang Lab “Zhihai”, CCF–Zhipu LLM,
-SMP–IDATA Morning Star, BUPT research initiatives, and key lab open grants.
-I have published <strong>100+ papers</strong> in venues such as <em>SIGIR, NeurIPS, AAAI, ACM MM, EMNLP, TMC, TMM,</em> and <em>TNNLS</em>,
-received the ICONIP 2022 Best Paper Award, and hold 8 patents.
+SMP–IDATA Morning Star, BUPT Frontier Research Promotion / Youth Innovation Programs, and key lab open grants.
+I have published <strong>100+ papers</strong> at leading venues such as <em>SIGIR, WWW, NeurIPS, ICML, AAAI, ACM MM, ACL, EMNLP, TKDE,</em> and <em>TMC</em>,
+received the ICONIP 2022 Best Paper Award, and hold 14 granted/pending patents.
 
 # 📢 News
 <p><span class="anchor" id="news"></span></p>
