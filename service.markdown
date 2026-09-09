@@ -40,5 +40,5 @@ permalink: /service/
   </ul>
 
   <h2>Reviewer (Journals &amp; Conferences)</h2>
-  <p>Served as reviewer for leading journals and conferences, including: <em>ACM TOIS</em>, <em>IEEE TKDE</em>, <em>WWW</em>, <em>KDD</em>, <em>ACM MM</em>.</p>
+  <p>Served as reviewer for leading journals and conferences, including: <em>SIGIR</em>, <em>WWW</em>, <em>NeurIPS</em>, <em>ICML</em>, <em>AAAI</em>, <em>ACM MM</em>, <em>ACL</em>, <em>EMNLP</em>, <em>TKDE</em>, <em>TMC</em>.</p>
 </section>
