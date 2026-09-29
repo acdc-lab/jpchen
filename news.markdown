@@ -18,6 +18,10 @@ permalink: /news/
     </li>
     <li>
       <span class="news-date">2026.09</span>
+      <span class="news-content">Our paper "DSSNet: Deep Spectral Structure Profiling Network for Traffic Flow Prediction" was accepted by NeurIPS 2026 (Poster). 🎉</span>
+    </li>
+    <li>
+      <span class="news-date">2026.09</span>
       <span class="news-content">Our paper "OrangeTree: A Linear and Tree-based Time Series Forecasting Model Supporting Multiple Input and Output Lengths" was accepted by NeurIPS 2026 (Poster). 🎉</span>
     </li>
     <li>
