@@ -9,6 +9,18 @@ permalink: /news/
 
   <ul class="news-list">
     <li>
+      <span class="news-date">2026.09</span>
+      <span class="news-content">Our paper "Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉</span>
+    </li>
+    <li>
+      <span class="news-date">2026.09</span>
+      <span class="news-content">Our paper "AgentTailor: Dual-Gate LLM-Assisted Re-ranking for Personalized Long-Tail Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉</span>
+    </li>
+    <li>
+      <span class="news-date">2026.09</span>
+      <span class="news-content">Our paper "OrangeTree: A Linear and Tree-based Time Series Forecasting Model Supporting Multiple Input and Output Lengths" was accepted by NeurIPS 2026 (Poster). 🎉</span>
+    </li>
+    <li>
       <span class="news-date">2026.08</span>
       <span class="news-content">Our paper "Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment" was accepted by EMNLP 2026 (Findings). 🎉</span>
     </li>
