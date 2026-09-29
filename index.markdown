@@ -24,6 +24,9 @@ received the ICONIP 2022 Best Paper Award, and hold 14 granted/pending patents.
 # 📢 News
 <p><span class="anchor" id="news"></span></p>
 
+- **2026.09** — Our paper "Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉
+- **2026.09** — Our paper "AgentTailor: Dual-Gate LLM-Assisted Re-ranking for Personalized Long-Tail Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉
+- **2026.09** — Our paper "OrangeTree: A Linear and Tree-based Time Series Forecasting Model Supporting Multiple Input and Output Lengths" was accepted by NeurIPS 2026 (Poster). 🎉
 - **2026.08** — Our paper "Bridging Reasoning and Retrieval: A Large-Small Model Collaboration Framework for Multimodal Entity Alignment" was accepted by EMNLP 2026 (Findings). 🎉
 - **2026.08** — Our paper "Structure Attribute Seesaw: Conflict Aware Embedding Decoupling in Attributed Graph Clustering" was accepted by IEEE ICDM 2026. 🎉
 - **2026.08** — Our paper "Diffusion Optimized Social Prompt: Adapting Pre-trained Recommenders for Cold-start Users" was accepted by IEEE ICDM 2026. 🎉
