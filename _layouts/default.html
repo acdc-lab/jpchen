@@ -53,6 +53,18 @@
       <span>Designed by Y&amp;M</span>
       <button id="toggleTheme" aria-label="Toggle theme">Toggle theme</button>
     </div>
+    {% if site.flagcounter_src and site.flagcounter_src != "" %}
+    <div class="visitor-map">
+      <div class="visitor-map-label">Visitor Map</div>
+      {% if site.flagcounter_link and site.flagcounter_link != "" %}
+      <a href="{{ site.flagcounter_link }}" target="_blank" rel="noopener">
+        <img src="{{ site.flagcounter_src }}" alt="Visitor map" loading="lazy" border="0">
+      </a>
+      {% else %}
+      <img src="{{ site.flagcounter_src }}" alt="Visitor map" loading="lazy" border="0">
+      {% endif %}
+    </div>
+    {% endif %}
   </footer>
 
 <script>

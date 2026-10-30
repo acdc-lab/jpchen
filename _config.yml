@@ -71,6 +71,10 @@ author:
   email: you@bupt.edu.cn
   affiliation: School of Computer Science (National Model Software College), Beijing University of Posts and Telecommunications
 
+# 访客地图（FlagCounter，与实验室主页共用同一个计数器）
+flagcounter_src: "https://s05.flagcounter.com/map/Trya/size_l/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/"
+flagcounter_link: "https://info.flagcounter.com/Trya"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
