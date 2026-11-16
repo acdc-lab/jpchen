@@ -24,6 +24,7 @@ received the ICONIP 2022 Best Paper Award, and hold 14 granted/pending patents.
 # 📢 News
 <p><span class="anchor" id="news"></span></p>
 
+- **2026.11** — Our paper "Retrieve, Read, or Reason? Dynamic Action Trajectory Optimization for Multimodal Document Understanding" was accepted by KDD 2027 (Research Track, 1st Cycle). 🎉
 - **2026.09** — Our paper "Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉
 - **2026.09** — Our paper "AgentTailor: Dual-Gate LLM-Assisted Re-ranking for Personalized Long-Tail Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉
 - **2026.09** — Our paper "DSSNet: Deep Spectral Structure Profiling Network for Traffic Flow Prediction" was accepted by NeurIPS 2026 (Poster). 🎉

@@ -9,6 +9,10 @@ permalink: /news/
 
   <ul class="news-list">
     <li>
+      <span class="news-date">2026.11</span>
+      <span class="news-content">Our paper "Retrieve, Read, or Reason? Dynamic Action Trajectory Optimization for Multimodal Document Understanding" was accepted by KDD 2027 (Research Track, 1st Cycle). 🎉</span>
+    </li>
+    <li>
       <span class="news-date">2026.09</span>
       <span class="news-content">Our paper "Can Complementary Signals Bridge Similarity Islands? Manifold-Augmented Graph Embedding for Multimodal Recommendation" was accepted by NeurIPS 2026 (Poster). 🎉</span>
     </li>
